@@ -1,0 +1,2932 @@
+[
+    {
+        "category": "e-pos_device",
+        "list": [
+            {
+                "id": 0,
+                "name": "T2s Single Screen",
+                "sub_title": "Smart Single Screen Desktop Terminal",
+                "thumb": "assets/img/devices/device-t2s-single.png",
+                "thumb2": "assets/img/devices/screen-single-screen.png",
+                "hero_thumb": "assets/img/devices/hero/t2s-single-hero.png",
+                "description": "Smart Single Screen Desktop Terminal",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance Octa-Core Processor",
+                        "desc": "Leading brand of mobile processor. High performance, low power consumption."
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Android 9.0",
+                        "desc": "Enhanced safety & stability. Higher software running speed."
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "3GB RAM + 32GB ROM </br> 4GB RAM + 64GB ROM </br> (optional)"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "OS",
+                        "details": "Android 9.0"
+                    },
+                    {
+                        "title": "CPU",
+                        "details": "Kryo-260 </br> Octa-core up to 2.2GHz"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "32GB ROM+3GB RAM 64GB </br> ROM+4GB RAM (optional)"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "Face Recognition camera or normal camera (only for configuraion 2&3)"
+                    },
+                    {
+                        "title": "Printer",
+                        "details": "Paper roll width: 80mm Diameter: 80mm Speed: 250mm/s Support Automatic Cutter"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "1* 1.2W"
+                    },
+                    {
+                        "title": "SIM Card Slot",
+                        "details": "1* Micro SIM (optional)"
+                    },
+                    {
+                        "title": "Network",
+                        "details": "2G&3G&4G (optional)"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4GHz/5GHz IEEE 802.11 a/b/g/n /ac"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "BT2.1/3.0/4.0/5.0 BLE"
+                    },
+                    {
+                        "title": "LAN",
+                        "details": "LAN 100M"
+                    },
+                    {
+                        "title": "Buttons",
+                        "details": "1* power button 2* volumn button"
+                    },
+                    {
+                        "title": "External Port",
+                        "details": "Support Micro SD (TF) Up to 64GB"
+                    },
+                    {
+                        "title": "Interface",
+                        "details": "5*USB TypeA 1*RJ11 Serial port </br> 1*RJ12 Cash drawer port </br> 1*RJ45 LAN port </br> 1*Audio jack 1*Power port </br> 1* Micro-USB (debug)"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Input: AC100~240V/1.7A </br> Output: DC24V/2.5A"
+                    },
+                    {
+                        "title": "Dimensions",
+                        "details": "407*382*232mm (max)"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "Configuration1: 5.1 Kg </br> Configuration2: 5.7 Kg </br> Configuration3: 7.4 Kg"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temperature: 0°C ~ 40°C Storage temperature: -20°C ~ 60°C"
+                    }
+                ],
+                "features": [
+                    "Larger, and clearer.",
+                    "Anti-interference touch screen.",
+                    "Unique printing technology,",
+                    "improved printing efficiency"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/T2sSingle1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle8.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/T2sSingle4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle5.png"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "T2s Double Screen",
+                "sub_title": "Smart Double Screen Desktop Terminal",
+                "thumb": "assets/img/devices/device-t2s-new-double-screen.png",
+                "thumb2": "assets/img/devices/screen-t2s-new-double-screen.png",
+                "hero_thumb": "assets/img/devices/hero/t2s-double-hero.png",
+                "description": "With a built-in Seiko printer, T2 is more suitable for quality-pursuing customers with high demands on printing.",
+                "price": 200,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance Octa-Core Processor",
+                        "desc": "Leading brand of mobile processor. High performance, low power consumption."
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Android OS",
+                        "desc": "Enhanced safety & stability. Higher software running speed."
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "2GB RAM + 16GB ROM </br> 16 GB extra-large memory."
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "OS",
+                        "details": "Android OS"
+                    },
+                    {
+                        "title": "CPU",
+                        "details": "High performance octa-core processor"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "2GB RAM 16GB ROM"
+                    },
+                    {
+                        "title": "Touch Screen",
+                        "details": "G+G capacitive multi-touch screen"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Input: AC100~240V/1.7A Output: DC24V/2.5A"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4G/5G support IEEE 802.11 a/b/g/n"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "support Bluetooth 2.1/3.0/4.0 support BLE"
+                    },
+                    {
+                        "title": "Dimensions",
+                        "details": "407mm*382mm*232mm"
+                    },
+                    {
+                        "title": "Speaker/MIC",
+                        "details": "1.2W"
+                    },
+                    {
+                        "title": "Printer",
+                        "details": "Output: DC24V/2.5A Automatic cutter:Equipped Print speed: 200 mm/s Paper roll: 80mm OD"
+                    },
+                    {
+                        "title": "Buttons",
+                        "details": "Power button (lock screen) Volume +/-Button"
+                    },
+                    {
+                        "title": "External Memory Card",
+                        "details": "support MicroSD (TF) Up to 64G"
+                    },
+                    {
+                        "title": "External Port",
+                        "details": "USB Type A port×5,RJ11 serial port×1,RJ12 cash drawer port×1,RJ45 LAN port×1,audio jack×1,power port×1,Micro-USB debug port×1"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temperature: 0°C ~ 40°C Storage temperature: -20°C ~ 60°C"
+                    }
+                ],
+                "features": [
+                    "Built-in Seiko printer for smoother printing.",
+                    "Designed by David Protet,a top industrial designer.",
+                    "lHigh-speed operation, stable and smooth."
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/T2sSingle1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle8.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/T2sSingle4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2sSingle8.png"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "T2 Mini",
+                "sub_title": "Smart Desktop Terminal",
+                "thumb": "assets/img/devices/device-t2-mini.png",
+                "thumb2": "assets/img/devices/screen-t2-mini.png",
+                "hero_thumb": "assets/img/devices/hero/t2-mini-hero.png",
+                "description": "Smart Terminal with Good-looking, and powerful.",
+                "price": 500,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance Octa-Core Processor",
+                        "desc": "Leading brand of mobile processor. High performance, low power consumption."
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Android OS",
+                        "desc": "Enhanced safety & stability. Higher software running speed."
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "2GB RAM + 16GB ROM"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "Model Approved",
+                        "details": "Config 1: L1323 (80mm printer +WIFI) </br> Config 2: L1323 (80mm printer + NFC + Scanner+4G)"
+                    },
+                    {
+                        "title": "OS",
+                        "details": "Android OS"
+                    },
+                    {
+                        "title": "CPU",
+                        "details": "Cortex-A53 <br/> octa-core 1.4GHz"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "2GB RAM + 16GB ROM"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "Capacitive multitouch </br> Main Display： 11.6 FHD 1920*1080  <br/> Secondary Display: LED Display，FSTN ,128*40"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "0.3MP <br/> Supports 1D/2D barcode <br/> recognition (Config 2)"
+                    },
+                    {
+                        "title": "Printer",
+                        "details": "Built-in 80mm thermal printer <br/> Auto cutter: equipped <br/> Print speed: 160mm/s <br/> Service life: 100Km, Paper roll: Φ60mm"
+                    },
+                    {
+                        "title": "NFC Card Reader",
+                        "details": "Supports Type A&B card, Mifare card, Felica card ISO/ICE 14443 compliant"
+                    },
+                    {
+                        "title": "Scanner",
+                        "details": "Supports 1D/2D barcode recognition (Config 2)"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "1* 1.2W"
+                    },
+                    {
+                        "title": "SIM Card Slot",
+                        "details": "1* MINI SIM (Config 2)"
+                    },
+                    {
+                        "title": "Network",
+                        "details": "2G & 3G & 4G (Config 2)"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4GHz Supports IEEE 802.11 b/g/n"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "Supports Bluetooth 2.1/3.0/4.2 Supports BLE"
+                    },
+                    {
+                        "title": "Wired Network",
+                        "details": "LAN 100M"
+                    },
+                    {
+                        "title": "Button",
+                        "details": "1* Power (lock screen) button <br/> 2* Volume (+/-) button"
+                    },
+                    {
+                        "title": "TF Card",
+                        "details": "1* MicroSD (TF) Up to 64G"
+                    },
+                    {
+                        "title": "Ports",
+                        "details": "4* USB Type A port <br/> 1* RJ11 serial port <br/> 1* RJ12 cash drawer port <br/> 1* RJ45 LAN port <br/> 1* Audio jack <br/> 1* Power port <br/> 1* Micro USB debug port"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Input: AC100~240V/1.7A <br/> Output: DC24V/2.5A"
+                    },
+                    {
+                        "title": "Dimensions",
+                        "details": "294*303*107mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "2.0Kg"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temperature: 0°C~40°C <br/> Storage temperature: -20°C~60°C"
+                    }
+                ],
+                "features": [
+                    "Maintain excellent performance in various environments.",
+                    "Unlimited Network Access",
+                    "More Than Excellent With a Mass of Applications",
+                    "Professional print quality."
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/T2mini1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2mini2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2mini3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2mini4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2mini5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2mini6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2mini7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2mini8.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/T2mini6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2mini7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/T2mini3.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "kiosk_device",
+        "list": [
+            {
+                "id": 0,
+                "name": "Valt K2",
+                "sub_title": "Smart KIOSK Terminal",
+                "thumb": "assets/img/devices/device-k2.png",
+                "thumb2": "assets/img/devices/screen-K2.png",
+                "hero_thumb": "assets/img/devices/hero/k2-hero.png",
+                "description": "Modernize your customer self-service experience.",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "Six-Core 1.8GHz",
+                        "desc": "More Suitable CPU for Self-Service Devices"
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "58mm/80mm",
+                        "desc": "Japanese Seiko Print Engine"
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "4GB RAM + 16GB ROM </br> Run Smoothly With a Big Memory"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "OS",
+                        "details": "Android OS"
+                    },
+                    {
+                        "title": "CPU",
+                        "details": "Six-core 1.8GHz"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "16G ROM+ 4G RAM <br/> Support MicroSD(TF) up to 128GB"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "24'' 1080×1920 FHD <br/> G + G capacitive screen <br/> supports 10 touch points"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "3D structured light camera <br/> Support FR payment, <br/> membership verification, etc."
+                    },
+                    {
+                        "title": "Scanner",
+                        "details": "Support 2D QR code on mobile screen (Restaurant Version)"
+                    },
+                    {
+                        "title": "Barcode Scanner",
+                        "details": "Support 1D, 2D, mobile screen and printed barcodes (Retail Version/Scalable Version)"
+                    },
+                    {
+                        "title": "Printer",
+                        "details": "80-column thermal printer <br/> with automatic cutter <br/> Support 80mm OD paper roll <br/> Print speed up to 150mm/s(max)"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "2*3W(stereo)"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "IEEE 802.11 a/b/g/n <br/> 2.4/5GHz"
+                    },
+                    {
+                        "title": "Ethernet",
+                        "details": "10/100/1000M Ethernet <br/> self-adaptive"
+                    },
+                    {
+                        "title": "Interface",
+                        "details": "1× Micro-USB Debug Port <br/> 5× USB TypeA port"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "AC100~120V <br/> AC200~240V"
+                    },
+                    {
+                        "title": "Dimensions",
+                        "details": "Wall-mounted: <br/> 394*171*1017mm <br/> Floor-standing with table: <br/> 1018*645*1850mm <br/> Floor-standing: <br/> 540*490*1850mm <br/> Healthcare Version (Scalable): <br/> 540*490*1810mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "Wall-mounted:16.5Kg <br/> Floor-standing with table: 58Kg <br/> Floor-standing: 45Kg <br/> Healthcare Version (Scalable): 50Kg"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Working temperature: 0 ~ 40°C <br/> Storage temperature: <br/> -20°C ~ 55°C"
+                    }
+                ],
+                "features": [
+                    "Facial recognition payment.",
+                    "Partitioned table.",
+                    "Stereo speakers.",
+                    "Superior Scanner for increased performance."
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/K2_1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_9.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_10.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/K2_2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2_10.png"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Valt K2 Mini",
+                "sub_title": "Smart KIOSK Terminal",
+                "thumb": "assets/img/devices/device-k2-mini.png",
+                "thumb2": "assets/img/devices/screen-K2-mini.png",
+                "hero_thumb": "assets/img/devices/hero/k2-mini-hero.png",
+                "description": "For a more compact self-service experience.",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance Processor",
+                        "desc": "Qualcomm Snapdragon Octa-core/Rockchip Quad-core"
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Android OS",
+                        "desc": "Enhanced safety & stability. Higher software running speed."
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "16GB ROM + 2GB RAM Support MicroSD(TF) up to 64GB"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "OS",
+                        "details": "Android OS"
+                    },
+                    {
+                        "title": "CPU",
+                        "details": "Qualcomm Snapdragon Octa-core/Rockchip Quad-core"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "16GB ROM + 2GB RAM Support MicroSD(TF) up to 64GB"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "Portrait screen: 15.6 inch 1080x1920 FHD Multi touch Screen; Landscape(optional): 15.6 inch 1920x1080 FHD Multi touch Screen"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "3D structured light camera <br/> Support FR payment, <br/> membership verification, etc."
+                    },
+                    {
+                        "title": "Scanner",
+                        "details": "Support 2D QR code on mobile screen and printed barcodes"
+                    },
+                    {
+                        "title": "NFC",
+                        "details": "2nd generation ID card reading Support M1/ID/CPU card reading & writing (an option for Extendable Version)"
+                    },
+                    {
+                        "title": "Printer",
+                        "details": "Thermal printer with automatic cutter Support 58/80mm OD paper roll Print speed up to 250mm/s(max)"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "1*3W"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4GHz/5GHz IEEE 802.11 a/b/g/n/ac"
+                    },
+                    {
+                        "title": "Ethernet",
+                        "details": "One 10/100M self-adaptive"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "Support Bluetooth 2.1/3.0/4.0 Support BLE"
+                    },
+                    {
+                        "title": "Interface",
+                        "details": "5× USB Type-A ports 1× RJ11 Serial port 1× RJ12 Cash drawer port 1× RJ45 LAN port 1× Audio jack 1× Power port 1× Micro USB debug port"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Input: AC100~240V/1.7A Output: DC24V/2.5A"
+                    },
+                    {
+                        "title": "Dimensions",
+                        "details": "Dual monitor: 380*280*590mm Single monitor: 300*250*590mm Wall-mounted: 265*120*680mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "Dual monitor: 10.5Kg Single monitor: 8Kg Wall-mounted: 5Kg"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temperature: 0 ~ 40°C Storage temperature: -20°C ~ 55°C"
+                    }
+                ],
+                "features": [
+                    "Lightweight Only 10Kg",
+                    "Dual Monitors Vertical Monitor 15.6 inch",
+                    "For More Scenarios Seiko 58mm/80mm",
+                    "Out of the Box No Assembly Needed"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/K2MINI-8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2MINI-1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2MINI-2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2MINI-3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2MINI-4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2MINI-5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2MINI-6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2MINI-7.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/K2MINI-8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2MINI-1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/K2MINI-2.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "mobile_device",
+        "list": [
+            {
+                "id": 0,
+                "name": "Valt L2s",
+                "sub_title": "Smart Mobile Terminal",
+                "thumb": "assets/img/devices/device-l2s.png",
+                "thumb2": "assets/img/devices/screen-L2s.png",
+                "hero_thumb": "assets/img/devices/hero/l2s-hero.png",
+                "description": "A new generation of enterprise PDA, built to digitize your frontline operations.",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance QuadCore Processor",
+                        "desc": "ARM Cortex-A53 Quad Core 1.8GHz/2.0GHz"
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Android 9.0",
+                        "desc": "Enhanced safety & stability. Higher software running speed."
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "3GB RAM + 32GB ROM"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "Model Approved",
+                        "details": "T8910"
+                    },
+                    {
+                        "title": "OS",
+                        "details": "Android 9.0"
+                    },
+                    {
+                        "title": "CPU",
+                        "details": "ARM Cortex-A53 Quad Core <br/> Processor 1.8GHz/2.0GHz"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "3GB RAM+32GB ROM"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "5.5 inch HD，1440x720 <br/> Capacitive multitouch"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "Rear: 13MP AF <br/> Front: 2MP FF </br> Rear camera scanning, <br/> support 1D / 2D barcode scanning"
+                    },
+                    {
+                        "title": "NFC",
+                        "details": "Supports TypeA&B card, <br/> Mifare card, Felica card; <br/> ISO/IEC 14443 and ISO15693 compliant"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "Two microphones <br/> Vibrate alert <br/> Speaker"
+                    },
+                    {
+                        "title": "Card Slot",
+                        "details": "1*Nano SIM <br/> 2*PSAM <br/> 1*MicroSD (TF)"
+                    },
+                    {
+                        "title": "Communication",
+                        "details": "4G/3G/2G"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4G/5G <br/> Support lEEE 802.11 a/b/g/n/ac"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "Support Bluetooth 5.0 Support BLE"
+                    },
+                    {
+                        "title": "GPS",
+                        "details": "Support AGPS <br/> Support GPS/Glonass/Beidou/Galileo"
+                    },
+                    {
+                        "title": "Buttons",
+                        "details": "1* Power (lock screen) button <br/> 2* Scan button <br/> 2* Volume (+/-) button <br/> 1* Custom button"
+                    },
+                    {
+                        "title": "Ports",
+                        "details": "1*Type-c，support OTG <br/> 2*pogo pin in bottom for <br/> charging <br/> 8* pogo pin in back for accessories"
+                    },
+                    {
+                        "title": "Battery",
+                        "details": "Removable polymer lithium battery,3.8V/5000mAh"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Type-C 5V/2A"
+                    },
+                    {
+                        "title": "Sensor",
+                        "details": "G-Sensor/Proximity sensor/Light <br/> sensor/Gyroscope/E-compass"
+                    },
+                    {
+                        "title": "Protection",
+                        "details": "IP65 <br/> 1.5M drop spec"
+                    },
+                    {
+                        "title": "Dimensions (L*W*H)",
+                        "details": "154.4*74.6*17.1mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "245g"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temperature: -20℃~55℃ <br/> Storage temperature: -40℃~70℃"
+                    },
+                    {
+                        "title": "RFID (built-in UHF)",
+                        "details": "N/A"
+                    },
+                    {
+                        "title": "Accessories",
+                        "details": "Scanner handle < br/> UHF handle <br/> Charging base <br/> 4-slot battery charger <br/> Hand strap <br/> Screen tempered glass"
+                    }
+                ],
+                "features": [
+                    "ATL 5000mAh large capacity battery with high stability",
+                    "800 Charging cycle",
+                    "16 hours Continuous working",
+                    "20 days Standby time"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/L2s1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s9.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s10.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/L2s1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2s7.png"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Valt L2s Pro",
+                "sub_title": "Smart KIOSK Terminal",
+                "thumb": "assets/img/devices/device-l2s-pro.png",
+                "thumb2": "assets/img/devices/screen-L2s-pro.png",
+                "hero_thumb": "assets/img/devices/hero/l2s-pro-hero.png",
+                "description": "Smart Mobile Terminal",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance octa-core Processor",
+                        "desc": "Cortex-A53, octa-core (4*2.0GHz+4*1.5GHz)"
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Android 12",
+                        "desc": "Enhanced safety & stability. Higher software running speed."
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "3GB RAM+32GB ROM <br/> 4GB RAM+64GB ROM <br/> 6GB RAM+128GB ROM <br/> (optional)"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "Product Model",
+                        "details": "T8920"
+                    },
+                    {
+                        "title": "OS",
+                        "details": "Android 12"
+                    },
+                    {
+                        "title": "Processor",
+                        "details": "Cortex-A53, octa-core (4*2.0GHz+4*1.5GHz)"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "3GB RAM+32GB ROM <br/> 4GB RAM+64GB ROM <br/> 6GB RAM+128GB ROM <br/> (optional)"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "5.5 inch HD，1440x720 IPS <br/> Capacitive multitouch"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "Rear: 13MP AF Flash<br/> Front: 2MP FF </br> support 1D / 2D barcode scanning"
+                    },
+                    {
+                        "title": "NFC",
+                        "details": "Supports TypeA&B card, <br/> Mifare card, Felica card; <br/> ISO/IEC 14443 and ISO15693 compliant"
+                    },
+                    {
+                        "title": "Scanner",
+                        "details": "1D/2D barcode scan engine"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "1* 1.5W"
+                    },
+                    {
+                        "title": "Card Slot",
+                        "details": "1* PSAM <br/>  1* NANO SIM + 1* MINI SIM <br/> 1* MicroSD (TF) up to 256G"
+                    },
+                    {
+                        "title": "Network",
+                        "details": "4G/3G/2G"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4G/5G <br/> IEEE 802.11 a/b/g/n/ac"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "Support Bluetooth 5.0 Support BLE"
+                    },
+                    {
+                        "title": "GPS",
+                        "details": "AGPS <br/> GPS <br/> Glonass <br/> Beidou <br/> Galileo"
+                    },
+                    {
+                        "title": "Buttons",
+                        "details": "1* Power on/off button <br/> 2* Scan button (left/right) <br/> 2* Volume (+/-) button <br/> 1* Custom button"
+                    },
+                    {
+                        "title": "MIC",
+                        "details": "2* MIC"
+                    },
+                    {
+                        "title": "Ports",
+                        "details": "1* Audio jack <br/> 1* Type-C USB OTG supported <br/> 2* Pogo pin at the bottom for charging <br/> 8* Pogo pin on the back for accessories"
+                    },
+                    {
+                        "title": "Battery",
+                        "details": "Removable polymer lithium battery,3.8V/5000mAh"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Input: AC 110-240V <br/>Output: 9V 2A / 5V 2A <br/> *Vary from different versions"
+                    },
+                    {
+                        "title": "Sensor",
+                        "details": "Gravity Sensor,<br/> Light Sensor,<br/> Compass,<br/> Distance Sensor,<br/> Barometer Sensor (optional)"
+                    },
+                    {
+                        "title": "Protection",
+                        "details": "IP65 <br/> 1.5M drop spec"
+                    },
+                    {
+                        "title": "Dimensions (L*W*H)",
+                        "details": "154.4*74.6*17.1mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "250g <br/> *Vary from different versions"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temperature: -20℃~55℃ <br/> Storage temperature: -40℃~70℃"
+                    },
+                    {
+                        "title": "Protection Level",
+                        "details": "IP68 <br/> 1.5m drop test <br/> *Data from Valt Lab"
+                    },
+                    {
+                        "title": "Accessories",
+                        "details": "Scanner handle <br/> UHF handle <br/> 4-slot battery charger <br/> Hand strap <br/> Screen tempered glass"
+                    }
+                ],
+                "features": [
+                    "Fast and Accurate Reading",
+                    "Long Battery Life",
+                    "Enhanced Performance",
+                    "Strong Protection & High Volume"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/L2sPro2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro9.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro10.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/L2sPro7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/L2sPro10.png"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Valt M2 Max",
+                "sub_title": "Smart Mobile Terminal",
+                "thumb": "assets/img/devices/device-m2-max.png",
+                "thumb2": "assets/img/devices/screen-M2-max.png",
+                "hero_thumb": "assets/img/devices/hero/m2-max-hero.png",
+                "description": "Smart Mobile Terminal",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance octa-core Processor",
+                        "desc": "Kryo-260 octa-core, 2.2GHz"
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Android 12",
+                        "desc": "Enhanced safety & stability. Higher software running speed."
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "3GB RAM+32GB ROM <br/> 4GB RAM+64GB ROM <br/> 6GB RAM+128GB ROM <br/> (optional)"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "Product Model",
+                        "details": "Config:TF700 (Wi-Fi Ver.) <br/> Config:TF701 (4G Ver.)"
+                    },
+                    {
+                        "title": "OS",
+                        "details": "Android 9.0 (*based on Android)"
+                    },
+                    {
+                        "title": "Processor",
+                        "details": "Kryo-260 octa-core, 2.2GHz"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "Config 1: <br/> 3GB RAM + 32GB ROM <br/> Config 2: <br/> 4GB RAM + 64GB ROM"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "10.1 inch HD，1920x1200 IPS <br/> Capacitive multitouch"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "Rear: 13MP AF Flash<br/> Front: 5MP FF </br> support 1D / 2D barcode scanning"
+                    },
+                    {
+                        "title": "NFC",
+                        "details": "Supports TypeA&B card, <br/> Mifare card, Felica card; <br/> ISO/IEC 14443 and ISO15693 standards compliant"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "2* 1W"
+                    },
+                    {
+                        "title": "PSAM Card Slot",
+                        "details": "1* PSAM"
+                    },
+                    {
+                        "title": "vSIM",
+                        "details": "Supports vSIM (Config 2)"
+                    },
+                    {
+                        "title": "Network",
+                        "details": "2G/3G/4G"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4G/5G <br/> IEEE 802.11 a/b/g/n/ac"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "Support Bluetooth 5.0 BLE"
+                    },
+                    {
+                        "title": "GPS",
+                        "details": "AGPS <br/> GPS <br/> Glonass <br/> Beidou <br/> (Config 2)"
+                    },
+                    {
+                        "title": "Sensors",
+                        "details": "Gravity sensor, light sensor,compass sensor,hall sensor"
+                    },
+                    {
+                        "title": "Buttons",
+                        "details": "1* Power on/off button <br/> 2* Scan button (left/right) <br/> 2* Volume (+/-) button"
+                    },
+                    {
+                        "title": "MIC",
+                        "details": "2* MIC"
+                    },
+                    {
+                        "title": "Ports",
+                        "details": "1* Type-C, OTG supported1* Audio jack,supports POGO Pin"
+                    },
+                    {
+                        "title": "Battery",
+                        "details": "Nonremovable LiPo battery 3.85V/8360mAh"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Input: AC 100~240V <br/> Output: DC 5V/2A"
+                    },
+                    {
+                        "title": "Dimensions (L*W*H)",
+                        "details": "245.6*164.4*9.9mm (thinnest)"
+                    },
+                    {
+                        "title": "Protection",
+                        "details": "IP65 <br/> 1.0M drop spec"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "Standard Version: 673g <br/> Scanner Version:735g"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temperature: -20℃~55℃ <br/> Storage temperature: -40℃~70℃"
+                    },
+                    {
+                        "title": "Protection Level",
+                        "details": "IP68 <br/> 1.5m drop test <br/> *Data from Valt Lab"
+                    },
+                    {
+                        "title": "Accessories",
+                        "details": "hand strap charging and extendable cradle (optional) protective case (optional)"
+                    },
+                    {
+                        "title": "Scanner",
+                        "details": "Professional 2D scan engine <br/> (*Only supported by scanner version)"
+                    }
+                ],
+                "features": [
+                    "Easy barcode reading",
+                    "Long battery run time",
+                    "The 10.1 ” FHD screen adopts Corning Gorilla Glass",
+                    "Strong Protection & High Volume"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/m2Max1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/m2Max2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/m2Max3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/m2Max4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/m2Max5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/m2Max6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/m2Max7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/m2Max8.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/m2Max1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/m2Max5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/m2Max6.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "kitchen-screen",
+        "list": [
+            {
+                "id": 0,
+                "name": "Valt D2s KDS",
+                "sub_title": "Smart Kitchen Display Screen",
+                "thumb": "assets/img/devices/device-d2s-kds.png",
+                "thumb2": "assets/img/devices/screen-d2s-kds.png",
+                "hero_thumb": "assets/img/devices/hero/d2s-cds-hero.png",
+                "description": "Streamline your kitchen operations for improved customer satisfaction.",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance quad-Core Processor",
+                        "desc": "Leading brand of mobile processor. High performance, low power consumption."
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Display",
+                        "desc": "A quality-maintained multi-touch screen display"
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "2GB RAM + 8GB ROM </br> 4GB RAM + 8GB ROM </br> (optional)"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "Product Model",
+                        "details": "L3561"
+                    },
+                    {
+                        "title": "OS",
+                        "details": "Valt OS <br/> (*based on Android 11)"
+                    },
+                    {
+                        "title": "Processor",
+                        "details": "Cortex-A55 <br/> quad-core 1.8GHz"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "2GB RAM+8GB ROM <br/> 4GB RAM+8GB ROM(optional)"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "Built-in 2M FF camera (optional)"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "15.6 inch FHD, 1920*1080 Capacitive multi-touch screen"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "1* 3W"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4GHz/5GHz IEEE 802.11 a/b/g/n/ac"
+                    },
+                    {
+                        "title": "LAN",
+                        "details": "LAN 100M <br/> POE (optional)"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "Bluetooth 2.1/3.0/4.0/4.2 BLE"
+                    },
+                    {
+                        "title": "Buttons",
+                        "details": "1*Power on/off button (lock screen button)"
+                    },
+                    {
+                        "title": "External Memory Card",
+                        "details": "1* MicroSD（TF）Up to 1TB"
+                    },
+                    {
+                        "title": "Ports",
+                        "details": "4* USB Type A port 1* RJ11 port 1* Switch for auto start 1* RJ45 LAN 1* 3.5mm audio jack 1* Power port 1* Micro-USB debug port"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Input: AC 100～240V/0.6A Output: DC 24V/1A or Input: AC 100～240V/1.5A Output: DC 24V/1.5A"
+                    },
+                    {
+                        "title": "Dimensions",
+                        "details": "381.51*251.21*40.58mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "1.69kg"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Working temp: 0℃~40℃ <br/> Storage temp: -20℃~60℃"
+                    }
+                ],
+                "features": [
+                    "Boosted BOH efficiency.",
+                    "Customer-centric design.",
+                    "Sealing protection.",
+                    "Painless installation, easy operations."
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/cds1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds9.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds10.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/cds6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds4.png"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Valt D2s CDS",
+                "sub_title": "Smart Customer Display Screen",
+                "thumb": "assets/img/devices/device-d2s-kds.png",
+                "thumb2": "assets/img/devices/screen-d2s-cds.png",
+                "hero_thumb": "assets/img/devices/hero/d2s-cds-hero.png",
+                "description": "Streamline your kitchen operations for improved customer satisfaction.",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance quad-Core Processor",
+                        "desc": "Leading brand of mobile processor. High performance, low power consumption."
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Display",
+                        "desc": "A quality-maintained multi-touch screen display"
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "2GB RAM + 8GB ROM </br> 4GB RAM + 8GB ROM </br> (optional)"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "Product Model",
+                        "details": "L3561"
+                    },
+                    {
+                        "title": "OS",
+                        "details": "Valt OS <br/> (*based on Android 11)"
+                    },
+                    {
+                        "title": "Processor",
+                        "details": "Cortex-A55 <br/> quad-core 1.8GHz"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "2GB RAM+8GB ROM <br/> 4GB RAM+8GB ROM(optional)"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "Built-in 2M FF camera (optional)"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "15.6 inch FHD, 1920*1080 Capacitive multi-touch screen"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "1* 3W"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4GHz/5GHz IEEE 802.11 a/b/g/n/ac"
+                    },
+                    {
+                        "title": "LAN",
+                        "details": "LAN 100M <br/> POE (optional)"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "Bluetooth 2.1/3.0/4.0/4.2 BLE"
+                    },
+                    {
+                        "title": "Buttons",
+                        "details": "1*Power on/off button (lock screen button)"
+                    },
+                    {
+                        "title": "External Memory Card",
+                        "details": "1* MicroSD（TF）Up to 1TB"
+                    },
+                    {
+                        "title": "Ports",
+                        "details": "4* USB Type A port 1* RJ11 port 1* Switch for auto start 1* RJ45 LAN 1* 3.5mm audio jack 1* Power port 1* Micro-USB debug port"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Input: AC 100～240V/0.6A Output: DC 24V/1A or Input: AC 100～240V/1.5A Output: DC 24V/1.5A"
+                    },
+                    {
+                        "title": "Dimensions",
+                        "details": "381.51*251.21*40.58mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "1.69kg"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Working temp: 0℃~40℃ <br/> Storage temp: -20℃~60℃"
+                    }
+                ],
+                "features": [
+                    "Boosted BOH efficiency.",
+                    "Customer-centric design.",
+                    "Sealing protection.",
+                    "Painless installation, easy operations."
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/cds1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds9.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds10.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/cds6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cds4.png"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Valt V8",
+                "sub_title": "Smart Kitchen Terminal",
+                "thumb": "assets/img/devices/device-valt-v8.png",
+                "thumb2": "assets/img/devices/screen-valt-v8.png",
+                "hero_thumb": "assets/img/devices/hero/valt-v8-hero.png",
+                "description": "Embedded high-speed printer realizes smart and integrated experience",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                ],
+                "version": [
+                ],
+                "storage": [
+                ],
+                "spec": [
+                    {
+                        "title": "OS",
+                        "details": "Android 5.1/Android 6.0 Linux"
+                    },
+                    {
+                        "title": "Dimension",
+                        "details": "160W*240L*175H"
+                    },
+                    {
+                        "title": "Work temperature",
+                        "details": "-0°C~+50°C"
+                    },
+                    {
+                        "title": "Processor",
+                        "details": "Octa Core Cortex-A53, 1.5Ghz"
+                    },
+                    {
+                        "title": "RAM",
+                        "details": "Built-in 2M FF camera (optional)"
+                    },
+                    {
+                        "title": "ROM",
+                        "details": "8GB (Up to 32G)"
+                    },
+                    {
+                        "title": "8 inch Touch screen",
+                        "details": "TFT capacity screen 1024*768"
+                    },
+                    {
+                        "title": "Printer",
+                        "details": "Internal high-speed Seiko 80mm thermal printer"
+                    },
+                    {
+                        "title": "WiFi",
+                        "details": "802.11b/g/n"
+                    },
+                    {
+                        "title": "Power",
+                        "details": "Speaker"
+                    },
+                    {
+                        "title": "Interface",
+                        "details": "3 x USB: 1 x RS232 1 x RJ11/12 1x 10/100/1000 Ethernet LAN 3.5mm headphone jack"
+                    }
+                ],
+                "features": [
+                    "Receipt Printing",
+                    "Ordering",
+                    "Receiving online order",
+                    "Queueing"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/valtV8-1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valtV8-2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valtV8-3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valtV8-4.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/valtV8-2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valtV8-3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valtV8-4.png"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Valt Label Printer",
+                "sub_title": "Smart Kitchen Terminal",
+                "thumb": "assets/img/devices/device-valt-label-printer.png",
+                "thumb2": "assets/img/devices/device-valt-label-printer.png",
+                "hero_thumb": "assets/img/devices/hero/valt-label-printer-hero.png",
+                "description": "Widley used especially by high-end applications like hospitality",
+                "price": 20,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                ],
+                "version": [
+                ],
+                "storage": [
+                ],
+                "spec": [
+                    {
+                        "title": "Printing Method",
+                        "details": "Thermal Line"
+                    },
+                    {
+                        "title": "Resolution",
+                        "details": "Thermal Line 8 dots/mm"
+                    },
+                    {
+                        "title": "Printing Speed",
+                        "details": "100mm/s (Max) (Thermal Label Paper) 127mm/s (Max) (Normal Thermal Paper)"
+                    },
+                    {
+                        "title": "Effective Printing Width",
+                        "details": "48mm/56mm"
+                    },
+                    {
+                        "title": "TPH",
+                        "details": "50km"
+                    },
+                    {
+                        "title": "Paper Width",
+                        "details": "Paper Width"
+                    },
+                    {
+                        "title": "Paper Type",
+                        "details": "Normal Thermal Paper/ Thermal Label Paper/ Fold Paper"
+                    },
+                    {
+                        "title": "Paper Size",
+                        "details": "Max 56×Ø80mm"
+                    },
+                    {
+                        "title": "Paper Thickness",
+                        "details": "0.06mm～0.08mm(Normal Thermal Paper) 0.12~0.14mm(Thermal Label Paper)"
+                    },
+                    {
+                        "title": "Driver",
+                        "details": "Windows/Linux/Android"
+                    },
+                    {
+                        "title": "Print Font",
+                        "details": "Codepage, : ANK: 9 x17 / 12 x24; Chinese: 24 x 24"
+                    },
+                    {
+                        "title": "Barcode",
+                        "details": "1D: UPC-A、UPC-E、EAN-13、EAN-8、CODE39、ITF25、CODABAR、 CODE93、CODE128 2D: PDF417、QR Code、DATA Matrix"
+                    },
+                    {
+                        "title": "Interface",
+                        "details": "USB/USB+Bluetooth(2.0/4.0)"
+                    },
+                    {
+                        "title": "Power Supply",
+                        "details": "DC12V±10％, 2A"
+                    },
+                    {
+                        "title": "DC12V±10％, 2A",
+                        "details": "DC12V±10％, 2A"
+                    },
+                    {
+                        "title": "Outline Dimension",
+                        "details": "160x130x115mm(L×W×H)"
+                    },
+                    {
+                        "title": "Storage Temp/Humidity",
+                        "details": "-20～60℃/10～90%"
+                    }
+                ],
+                "features": [
+                    "Supports BarTender, Nice Label and Dlabel label editor software",
+                    "Supports different label size as well as its simple installation kit"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--01.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--02.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--03.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--04.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--05.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--06.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--07.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--08.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--09.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--10.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--11.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--05.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--07.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/valt-label-printer--09.png"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Valt Cube",
+                "sub_title": "Smart Kitchen Terminal",
+                "thumb": "assets/img/devices/device-valt-cube.png",
+                "thumb2": "assets/img/devices/screen-valt-cube.png",
+                "hero_thumb": "assets/img/devices/hero/valt-cube-hero.png",
+                "description": "A truly multi purpose device. Full POS functionality in a small, highly compact machine.",
+                "price": 200,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                ],
+                "version": [
+                ],
+                "storage": [
+                ],
+                "spec": [
+                    {
+                        "title": "OS",
+                        "details": "SP-Y33R: Android 5.1/SP-Y33Q: Android 7"
+                    },
+                    {
+                        "title": "CPU",
+                        "details": "SP-Y33R: RK3288 Cortex-A17/SP-Y33Q: MT8735/MSM8909"
+                    },
+                    {
+                        "title": "RAM",
+                        "details": "SP-Y33R: DDR3, 2GB/SP-Y33Q: DDR3, 1GB"
+                    },
+                    {
+                        "title": "GMS",
+                        "details": "SP-Y33R: Yes/SP-Y33Q: No"
+                    },
+                    {
+                        "title": "Printing Method",
+                        "details": "Thermal Line"
+                    },
+                    {
+                        "title": "Printing Speed",
+                        "details": "175mm/s (Max)"
+                    },
+                    {
+                        "title": "Paper Type",
+                        "details": "Thermal Paper"
+                    },
+                    {
+                        "title": "Paper Width",
+                        "details": "79.5±0.5mm"
+                    },
+                    {
+                        "title": "TPH",
+                        "details": "150KM"
+                    },
+                    {
+                        "title": "Cutter life",
+                        "details": "1,500,000 cuts"
+                    },
+                    {
+                        "title": "Print Font",
+                        "details": "Codepage, : ANK: 9 x17 / 12 x24; Chinese: 24 x 24"
+                    },
+                    {
+                        "title": "Barcode",
+                        "details": "1D: UPC-A, UPC-E, EAN-13, EAN-8, CODE39, ITF25, CODABAR, CODE93, CODE128 2D: PDF417, QR Code, DATA Matrix"
+                    },
+                    {
+                        "title": "Interface",
+                        "details": "Type B USB/Type A USB/Bluetooth/WiFi/Ethernet/Cash Drawer"
+                    },
+                    {
+                        "title": "Power Supply",
+                        "details": "DC 24V±10%, 2.5A DC005-2.5 Power Socket"
+                    },
+                    {
+                        "title": "Operating Temp/Humidity",
+                        "details": "0～50℃/10％～80％"
+                    },
+                    {
+                        "title": "Outline Dimension",
+                        "details": "220mm*141mm*142*mm(L×W×H)"
+                    },
+                    {
+                        "title": "Storage Temp/Humidity",
+                        "details": "-20～60℃/10～90%"
+                    }
+                ],
+                "features": [
+                    "Elegant and compact design",
+                    "Fast, reliable and versatile thermal receipt printer",
+                    "7.0 inch display screen supports response from multiple fingers",
+                    "Android 5.1 & Android 7 OS as well as its simple installation kit"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/cube-0.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-7.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-8.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-9.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-10.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-11.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/cube-2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-11.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/cube-9.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "online-order",
+        "list": [
+            {
+                "id": 0,
+                "name": "Valt V2s",
+                "sub_title": "Smart Mobile Terminal",
+                "thumb": "assets/img/devices/device-v2s.png",
+                "thumb2": "assets/img/devices/screen-v2s.png",
+                "hero_thumb": "assets/img/devices/hero/v2s-hero.png",
+                "description": "Four breakthroughs are only for smooth and lasting experience.",
+                "price": 250,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance Quad-Core Processor",
+                        "desc": "Leading brand of mobile processor. High performance, low power consumption."
+                    }
+                ],
+                "version": [
+                    
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "1GB RAM+8GB ROM"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "Model Approved",
+                        "details": "T5940"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "1GB RAM+8GB ROM"
+                    },
+                    {
+                        "title": "CPU",
+                        "details": "Quad-Core 2.0GHz"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "5.5 inch HD，1440x720 IPS"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "Rear: 5.0MP AF Flash<br/> with Flash LED </br> support 1D / 2D"
+                    },
+                    {
+                        "title": "NFC",
+                        "details": "Not supported"
+                    },
+                    {
+                        "title": "Scanner",
+                        "details": "Not included"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "1.1W, 95dB"
+                    },
+                    {
+                        "title": "PSAM slot",
+                        "details": "Not supported"
+                    },
+                    {
+                        "title": "SIM & MicroSD Slot",
+                        "details": "Nano SIM *2 MicroSD *1"
+                    },
+                    {
+                        "title": "Printer",
+                        "details": "High speed, 58mm thermal printer Print speed: 80mm/s Paper roll: Φ40mm Support till roll of 58mm width, 40mm roll diameter Support receipt printing Support label printing, Label paper specs: 30-58mm wide ≥20mm high, 2mm wide gap"
+                    },
+                    {
+                        "title": "Communication",
+                        "details": "4G/3G/2G"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4GHz/5GHz IEEE 802.11 a/b/g/n/ac"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "Support Bluetooth 2.1/3.0/4.2 Support BLE"
+                    },
+                    {
+                        "title": "GPS",
+                        "details": "GPS, AGPS"
+                    },
+                    {
+                        "title": "Button",
+                        "details": "1 * Power Button 2* Volume (+/-) Button"
+                    },
+                    {
+                        "title": "Interface",
+                        "details": "Support Type-C,Support OTG Support 3.5mm earphone jack"
+                    },
+                    {
+                        "title": "Battery",
+                        "details": "Removable, Lithium Polymer battery 7.7V/ 3500mAh（equal to 3.85V/ 7000mAh)"
+                    },
+                    {
+                        "title": "Adapter",
+                        "details": "INPUT: AC 100~240V OUTPUT: 5V/2A"
+                    },
+                    {
+                        "title": "Dimensions (L*W*H)",
+                        "details": "219.1*80*17.8mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "417g(including battery) 300g(without battery)"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temp: -10~50℃ Storage temp: -20~60℃"
+                    },
+                    {
+                        "title": "Drop Test",
+                        "details": "1.2m *Data from Sunmi Lab"
+                    },
+                    {
+                        "title": "Accessories",
+                        "details": "Lanyard"
+                    }
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/v2s-01.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-02.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-03.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-04.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-05.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-06.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-07.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-08.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-09.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-10.png"
+                    }
+                ],
+                "features": [
+                    "Full-fledged",
+                    "High Capacity Battery",
+                    "Rubber Seals Protection",
+                    "Dual Printing & 2D Scan Engine"
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/v2s-07.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-04.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/v2s-05.png"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "V2s Plus",
+                "sub_title": "Smart Mobile Terminal",
+                "thumb": "assets/img/devices/device-v2s-plus-new.png",
+                "thumb2": "assets/img/devices/screen-v2s-plus-new.png",
+                "hero_thumb": "assets/img/devices/hero/v2s-plus-hero.png",
+                "description": "Pushing the boundaries to help you achieve more.",
+                "price": 450,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "High Performance Octa-Core Processor",
+                        "desc": "Leading brand of mobile processor. High performance, low power consumption."
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Android 8.0",
+                        "desc": "Enhanced safety & stability. Higher software running speed."
+                    }
+                ],
+                "storage": [
+                    {
+                        "title": "Upgraded RAM. More options available.",
+                        "desc": "3GB RAM + 32GB ROM </br> 4GB RAM + 64GB ROM </br> (optional)"
+                    }
+                ],
+                "spec": [
+                    {
+                        "title": "Model Approved",
+                        "details": "T5F01"
+                    },
+                    {
+                        "title": "Memory",
+                        "details": "1GB RAM+8GB ROM"
+                    },
+                    {
+                        "title": "CPU",
+                        "details": "Cortex-A53 Octa-Core <br/> (4*2.0GHz+4*1.5GHz)"
+                    },
+                    {
+                        "title": "Display",
+                        "details": "6.22 inch HD+, 1520x720, IPS"
+                    },
+                    {
+                        "title": "Camera",
+                        "details": "Rear: 5.0MP AF Flash <br/> with Flash LED </br> support 1D / 2D"
+                    },
+                    {
+                        "title": "MicroSD Slot",
+                        "details": "1*MicroSD"
+                    },
+                    {
+                        "title": "SIM",
+                        "details": "2*Nano SIM"
+                    },
+                    {
+                        "title": "Speaker",
+                        "details": "1.1W, 95dB"
+                    },
+                    {
+                        "title": "Printer",
+                        "details": "Inbuilt thermal printer <br/> Print speed: 80mm/s Max. <br/> Roll Diameter: 50mm <br/> Receipt Printing <br/> Paper width: 80mm <br/> Label Printing <br/> Paper width: 60mm~80mm <br/> Hight>20mm; Gap>2mm"
+                    },
+                    {
+                        "title": "Communication",
+                        "details": "4G/3G/2G"
+                    },
+                    {
+                        "title": "Wi-Fi",
+                        "details": "2.4GHz/5G IEEE 802.11 a/b/g/n/ac"
+                    },
+                    {
+                        "title": "Bluetooth",
+                        "details": "Support Bluetooth 2.1/3.0/4.2 Support BLE"
+                    },
+                    {
+                        "title": "GPS",
+                        "details": "GPS/Glonass/Beidou /Galileo"
+                    },
+                    {
+                        "title": "Button",
+                        "details": "Power On Button Volume Up/Down"
+                    },
+                    {
+                        "title": "Interface",
+                        "details": "USB Type-C OTG"
+                    },
+                    {
+                        "title": "Battery",
+                        "details": "Removable, Lithium Polymer battery 7.7V/ 3500mAh（equal to 3.85V/ 7000mAh)"
+                    },
+                    {
+                        "title": "Adapter",
+                        "details": "INPUT: AC 100~240V OUTPUT: 5V/2A"
+                    },
+                    {
+                        "title": "Dimensions (L*W*H)",
+                        "details": "237.2*100.91*63mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "535g (battery incl.)"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temp: -10~50℃ Storage temp: -20~60℃"
+                    },
+                    {
+                        "title": "Drop Test",
+                        "details": "1.2m *Data from Sunmi Lab"
+                    },
+                    {
+                        "title": "Base(Optional)",
+                        "details": "Multifunctional Base"
+                    }
+                ],
+                "features": [
+                    "80mm inbuilt printer. No juggle, no hassle.",
+                    "Snappy front camera.",
+                    "Capture more with the HD-Rear camera*.",
+                    "One scanning engine to support all types of barcodes*."
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/V2splus-01.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/V2splus-02.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/V2splus-03.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/V2splus-04.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/V2splus-05.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/V2splus-06.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/V2splus-07.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/V2splus-08.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/V2splus-05.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/V2splus-02.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/V2splus-03.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "accessories_device",
+        "list": [
+            {
+                "id": 0,
+                "name": "Mini Cash Drawer",
+                "sub_title": "Smart accessories device",
+                "thumb": "assets/img/devices/device-cash-drawer.png",
+                "thumb2": "assets/img/devices/details/mini-cash-drawer-02.png",
+                "hero_thumb": "assets/img/devices/hero/cash-drawer-hero.png",
+                "description": "The reliable cash drawer for you.",
+                "price": 1250,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    
+                ],
+                "version": [
+                   
+                ],
+                "storage": [
+                ],
+                "spec": [
+                    {
+                        "title": "Cash Drawer",
+                        "details": "Plastic and metallic"
+                    },
+                    {
+                        "title": "Trays",
+                        "details": "CMOS"
+                    },
+                    {
+                        "title": "Metallic Bearing",
+                        "details": "Up to 10kg bearable"
+                    },
+                    {
+                        "title": "Cable",
+                        "details": "RJ12, 6P4C, 0.8m"
+                    },
+                    {
+                        "title": "Lock",
+                        "details": "Three positions lock (electronic, manual and deadlock)"
+                    },
+                    {
+                        "title": "Bill Clip",
+                        "details": "Plastic and metallic"
+                    },
+                    {
+                        "title": "Cable Storage Compartment",
+                        "details": "Rear-set compartment with cover"
+                    },
+                    {
+                        "title": "Drive Voltage",
+                        "details": "DC9V~24V, 1A"
+                    },
+                    {
+                        "title": "Drive Pulse Width",
+                        "details": "100ms-300ms"
+                    },
+                    {
+                        "title": "Drive Protections",
+                        "details": "3A overcurrent protection triggered by electromagnetic valve shrot circuit Input pulse overvoltage protection Input pulse timeout protection Self-adaptive to 9V-28V input voltage Contact ESD 8KV/air ESD 15KV Termal shutdown"
+                    },
+                    {
+                        "title": "Service Life",
+                        "details": "≥1000000 operations"
+                    },
+                    {
+                        "title": "Noise",
+                        "details": "<50dB"
+                    },
+                    {
+                        "title": "Status Feedback",
+                        "details": "Status detection switch"
+                    },
+                    {
+                        "title": "Size",
+                        "details": "W317mm x L332mm x H72mm"
+                    },
+                    {
+                        "title": "Total Weight",
+                        "details": "2.3Kg"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Working temperature and humidity: 0℃ ~ 45℃, 30% ~ 85% Storage temperature and humidity: -20℃ ~ 60℃, 10% ~ 90%"
+                    }
+                ],
+                "features": [
+                    "Trapezoid Shape",
+                    "Pressure-resistant and stable.",
+                    "Internal Honeycomb Structure",
+                    "Anti-Skid Pad"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-01.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-02.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-03.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-04.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-05.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-06.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-07.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-08.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-09.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-06.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-07.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/mini-cash-drawer-02.png"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Blink Scanner",
+                "sub_title": "Smart Scanning Solution",
+                "thumb": "assets/img/devices/device-blink-scanner.png",
+                "thumb2": "assets/img/devices/device-blink-scanner.png",
+                "hero_thumb": "assets/img/devices/hero/blink-hero.png",
+                "description": "Smart Scanning Solution",
+                "price": 4520,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    
+                ],
+                "version": [
+                    
+                ],
+                "storage": [
+                    
+                ],
+                "spec": [
+                    {
+                        "title": "Dimensions",
+                        "details": "9.7cm × 9cm × 10cm"
+                    },
+                    {
+                        "title": "Reading Precision",
+                        "details": "2D>10mil"
+                    },
+                    {
+                        "title": "Prompt",
+                        "details": "LED indicator/buzzer"
+                    },
+                    {
+                        "title": "Quiescent Current",
+                        "details": "Less than 1mA"
+                    },
+                    {
+                        "title": "Working Current",
+                        "details": "Less than 190mA"
+                    },
+                    {
+                        "title": "Code Scanning Window",
+                        "details": "7.5cm × 7.5cm"
+                    },
+                    {
+                        "title": "Working Temperature",
+                        "details": "-10℃ ～ 55℃"
+                    },
+                    {
+                        "title": "Storage Temperature",
+                        "details": "－40℃ ～ 70℃"
+                    },
+                    {
+                        "title": "Working Humidity",
+                        "details": "5%~95% (no condensation)"
+                    },
+                    {
+                        "title": "Input Voltage",
+                        "details": "5V + 0.5A"
+                    },
+                    {
+                        "title": "Symbologies",
+                        "details": "QR code, Code 128 (1D code)"
+                    },
+                    {
+                        "title": "Interface",
+                        "details": "USB male with 1.5 meter line"
+                    }
+                ],
+                "features": [
+                    "Ergonomic Scanning Angle of 45°",
+                    "Frame With Aluminum Alloy Texture",
+                    "Two Eye-Catching Orange Frames",
+                    "Open-Style Box Body Design"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/blink1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/blink2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/blink3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/blink4.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/blink5.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/blink6.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/blink6.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/blink2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/blink4.png"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Valt Hand Held Scanner",
+                "sub_title": "Smart Scanning Solution",
+                "thumb": "assets/img/devices/device-hand-held-scanner.png",
+                "thumb2": "assets/img/devices/device-hand-held-scanner.png",
+                "hero_thumb": "assets/img/devices/hero/handheld-scanner-hero.png",
+                "description": "Fast and accurate scanning that efficiently handles high-volume payment processing.",
+                "price": 125,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    {
+                        "title": "Image Sensor",
+                        "desc": "Use fast image decoding algorithm to read distorted 1D/2D barcodes accurately."
+                    }
+                ],
+                "version": [
+                    {
+                        "title": "Operating System",
+                        "desc": "Use in various types of system. Like as Windows/iOS/Android/Linux"
+                    }
+                ],
+                "storage": [
+                    
+                ],
+                "spec": [
+                    {
+                        "title": "OS",
+                        "details": "Windows/iOS <br/> Android/Linux"
+                    },
+                    {
+                        "title": "Image Sensor",
+                        "details": "CMOS"
+                    },
+                    {
+                        "title": "Pixel",
+                        "details": "640x480"
+                    },
+                    {
+                        "title": "Reading Precision",
+                        "details": "≥3mil"
+                    },
+                    {
+                        "title": "Reading Depth of Field",
+                        "details": "EAN13（13mil）55mm-300mm <br/> QR CODE（15mil）35mm-190mm"
+                    },
+                    {
+                        "title": "Lighting",
+                        "details": "White LED"
+                    },
+                    {
+                        "title": "Dimensions",
+                        "details": "16cm×9.5cm×7.1cm"
+                    },
+                    {
+                        "title": "Communication Port",
+                        "details": "USB 2.0 TypeA male connector"
+                    },
+                    {
+                        "title": "Focusing",
+                        "details": "Red light LED 625nm"
+                    },
+                    {
+                        "title": "Barcode Sensitivity",
+                        "details": "Inclined ±50°/rotary 360°/deflected ±50°"
+                    },
+                    {
+                        "title": "Field of View Angle",
+                        "details": "Horizontal 45°, vertical 34°"
+                    },
+                    {
+                        "title": "Power Adapter",
+                        "details": "Operating voltage: DC5V±5% <br/> Operating current: <500mA"
+                    },
+                    {
+                        "title": "Symbol Contrast",
+                        "details": "≥30%"
+                    },
+                    {
+                        "title": "Prompt",
+                        "details": "Buzzer, vibrator, LED prompt"
+                    },
+                    {
+                        "title": "Environment",
+                        "details": "Operating temperature: -10°C~50°C <br/> Storage temperature: -40°C~70°C <br/> Relative <br/> humidity: 5%~95% (no condensation) <br/> Electrostatic protection: ±8kV (direct discharge) <br/> ±15kV (air discharge) <br/>Drop height: 1.2meters"
+                    },
+                    {
+                        "title": "Symbologies",
+                        "details": "1D：Code128, UCC/EAN-128, AIM128, EAN-8, <br/> EAN-13, ISBN/ISSN, UPC-E, UPC-A, <br/> Interleaved 2 of 5, ITF-6, ITF-4, Matrix 2 of 5, Industrial 25, <br/> Standard 25, Code39, Codabar, Code 93, Code 11, Plessey, MSI-Plessey, RSS-14、RSS-Limited、RSS-Expand <br/> 2D：PDF417，QR Code，Data Matrix"
+                    }
+                ],
+                "features": [
+                    "Supports 1D/2D Bar Codes",
+                    "Fast Recognition  & Vibrating Alert",
+                    "Exceptional Code Identification",
+                    "Multiple System Compatibility",
+                    "Buzzer & Plug-and-Play"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/hand-held_scanner-01.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/hand-held_scanner-02.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/hand-held_scanner-03.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/hand-held_scanner-04.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/hand-held_scanner-05.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/details/hand-held_scanner-02.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/hand-held_scanner-01.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/hand-held_scanner-05.png"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "restaurant pager calling system",
+                "sub_title": "Smart calling system",
+                "thumb": "assets/img/devices/device-pager-calling.png",
+                "thumb2": "assets/img/devices/device-pager-calling.png",
+                "hero_thumb": "assets/img/devices/hero/handheld-scanner-hero.png",
+                "description": "Portable devices that are handed out to customers when they arrive at the restaurant",
+                "price": 125,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                ],
+                "version": [
+                ],
+                "storage": [
+                    
+                ],
+                "spec": [
+                ],
+                "features": [
+                    "Long Service Time",
+                    "Easy To Use",
+                    "One handed portable device",
+                    "wireless calling system"
+                ],
+                "slider": [
+                    {
+                        "image": "assets/img/devices/details/pager-calling-1.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/pager-calling-2.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/pager-calling-3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/pager-calling-4.png"
+                    }
+                ],
+                "closeshoot": [
+                    {
+                        "image": "assets/img/devices/device-pager-calling.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/pager-calling-3.png"
+                    },
+                    {
+                        "image": "assets/img/devices/details/pager-calling-4.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "payment_device",
+        "list": [
+            {
+                "id": 0,
+                "name": "WisePOS E",
+                "sub_title": "Smart Reader for hybrid countertop and handheld use.",
+                "thumb": "assets/img/devices/device-wisepos-e.png",
+                "thumb2": "assets/img/devices/screen-wisepos-e.png",
+                "hero_thumb": "assets/img/devices/hero/wisepos-e-hero.png",
+                "description": "Charge customers with a wisepos e stripe terminal card reader",
+                "price": 140,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                    
+                ],
+                "version": [
+                ],
+                "storage": [
+                ],
+                "spec": [
+                    {
+                        "title": "Internet enabled",
+                        "details": "Connect your countertop reader via wifi using the large touchscreen."
+                    },
+                    {
+                        "title": "3rd-party card reader",
+                        "details": "Card readers that are not purchased via this form will NOT work with the app. Card readers purchased directly from Stripe are an exception."
+                    },
+                    {
+                        "title": "Cross-border usage",
+                        "details": "WisePOS E card readers are for Stripe accounts in United Kingdom, Ireland, Canada and the United States. The card readers will NOT function outside of your Stripe account country."
+                    }
+                ],
+                "features": [
+                    "Internet enabled",
+                    "Chip, tap or swipe",
+                    "IOS & Android",
+                    "SCA-ready"
+                ],
+                "slider": [],
+                "closeshoot": []
+            },
+            {
+                "id": 1,
+                "name": "WisePad 3",
+                "sub_title": "A mobile card reader with a colour display and built-in PIN pad.",
+                "thumb": "assets/img/devices/device-wisepad3.png",
+                "thumb2": "assets/img/devices/screen-wisepad3.png",
+                "hero_thumb": "assets/img/devices/hero/wisepad-3-hero.png",
+                "description": "For Stripe accounts based in United Kingdom, Ireland, Australia, Canada, France, Germany, Netherlands and New Zealand",
+                "price": 2475,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                ],
+                "version": [
+                ],
+                "storage": [
+                ],
+                "spec": [
+                    {
+                        "title": "Internet enabled",
+                        "details": "Use your mobile devices internet connection to make charges with the WisePad 3."
+                    },
+                    {
+                        "title": "3rd-party card reader",
+                        "details": "Card readers that are not purchased via this form will NOT work with the app. Card readers purchased directly from Stripe are an exception."
+                    },
+                    {
+                        "title": "Cross-border usage",
+                        "details": "WisePad 3 card readers are for Stripe accounts in United Kingdom, Ireland, Canada and the United States. The card readers will NOT function outside of your Stripe account country."
+                    }
+                ],
+                "features": [
+                    "Bluetooth enabled",
+                    "Chip, tap or swipe",
+                    "IOS & Android",
+                    "SCA-ready"
+                ],
+                "slider": [],
+                "closeshoot": []
+            },
+            {
+                "id": 2,
+                "name": "Terminal M2",
+                "sub_title": "Smart Terminal Device",
+                "thumb": "assets/img/devices/device-terminal-m2.png",
+                "thumb2": "assets/img/devices/device-terminal-m2.png",
+                "hero_thumb": "assets/img/devices/hero/terminal-m2-hero.png",
+                "description": "Seamlessly connect a card reader and charge customers in-person with a card reader.For U.S Stripe accounts, charging in USD only",
+                "price": 4725,
+                "qty": 1,
+                "stock": true,
+                "processor": [
+                ],
+                "version": [
+                ],
+                "storage": [
+                ],
+                "spec": [
+                    {
+                        "title": "Return Policy",
+                        "details": "Please make sure to read and understand the: Return Policy before completing your purchase. A 20% restocking fee applies for all returns, without exception."
+                    },
+                    {
+                        "title": "3rd-party card reader",
+                        "details": "Card readers that are not purchased via this form will NOT work with the app. Card readers purchased directly from Stripe are an exception."
+                    },
+                    {
+                        "title": "US/USD only",
+                        "details": "Card readers are for U.S. customers only, when the charge currency is USD. The card readers depend on your physical location, and will not work outside the U.S. until Stripe unlocks them."
+                    }
+                ],
+                "features": [
+                    "Bluetooth enabled",
+                    "No setup required",
+                    "Chip, tap or swipe",
+                    "EMV & PCI-compliant",
+                    "IOS & Android ready",
+                    "SCA-ready"
+                ],
+                "slider": [],
+                "closeshoot": []
+            }
+        ]
+    },
+    {
+        "category": "printing-paper",
+        "list": [
+            {
+                "id": 0,
+                "name": "Thermal Till Rolls (80/80)",
+                "sub_title": "20 Rolls Per Box",
+                "thumb": "assets/img/devices/printing-paper-80-80.png",
+                "thumb2": "assets/img/devices/printing-paper-80-80.png",
+                "hero_thumb": "",
+                "description": "Thermal Till Rolls (80/80) <br/> (20 Rolls Per Box)",
+                "price": 120,
+                "qty": 1,
+                "stock": true,
+                "processor": [],
+                "version": [],
+                "storage": [],
+                "spec": [],
+                "features": [
+                    "Good For pos printer",
+                    "Material Type Thermal ",
+                    "Brightness: 92-98%",
+                    "Great printability ",
+                    "Size: 80/80 & 20 piece per box"
+                ],
+                "slider": [],
+                "closeshoot": []
+            },
+            {
+                "id": 1,
+                "name": "Thermal Till Rolls (57/30)",
+                "sub_title": "20 Rolls Per Box",
+                "thumb": "assets/img/devices/printing-paper-57-30.png",
+                "thumb2": "assets/img/devices/printing-paper-57-30.png",
+                "hero_thumb": "assets/img/devices/hero/printing-paper-57-30-hero.png",
+                "description": "Thermal Till Rolls (57/30) <br/> (20 Rolls Per Box)",
+                "price": 120,
+                "qty": 1,
+                "stock": true,
+                "processor": [],
+                "version": [],
+                "storage": [],
+                "spec": [],
+                "features": [
+                    "Good For pos printer",
+                    "Material Type Thermal ",
+                    "Brightness: 92-98%",
+                    "Great printability ",
+                    "Size: 57/30 & 20 piece per box"
+                ],
+                "slider": [],
+                "closeshoot": []
+            },
+            {
+                "id": 2,
+                "name": "Thermal Till Rolls (57/38)",
+                "sub_title": "20 Rolls Per Box",
+                "thumb": "assets/img/devices/printing-paper-57-38.png",
+                "thumb2": "assets/img/devices/printing-paper-57-38.png",
+                "hero_thumb": "",
+                "description": "Thermal Till Rolls (57/38) <br/> (20 Rolls Per Box)",
+                "price": 120,
+                "qty": 1,
+                "stock": true,
+                "processor": [],
+                "version": [],
+                "storage": [],
+                "spec": [],
+                "features": [
+                    "Good For pos printer",
+                    "Material Type Thermal ",
+                    "Brightness: 92-98%",
+                    "Great printability ",
+                    "Size: 57/38 &20 piece per box"
+                ],
+                "slider": [],
+                "closeshoot": []
+            }
+        ]
+    }
+]

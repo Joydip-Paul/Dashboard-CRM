@@ -1,0 +1,17 @@
+.dashboard-body {
+  background-color: #000;
+  min-height: 100vh;
+  width: 100%;
+  padding: 30px;
+}
+.dashboard-body__inner {
+  margin-left: 320px;
+}
+.dashboard-body__inner--active {
+  margin-left: 100px;
+}
+.dashboard-body__inner p {
+  margin-top: 100px;
+  color: #717171;
+  font-size: 30px;
+}/*# sourceMappingURL=test.component.css.map */

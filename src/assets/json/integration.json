@@ -1,0 +1,127 @@
+[
+    {
+        "category": "pos_system",
+        "list": [
+            {
+                "id": 0,
+                "name": "Clover",
+                "thumb": "assets/img/integrations/clover-integration.png",
+                "description": "Clover builds smart, customized point of sale systems"
+            },
+            {
+                "id": 1,
+                "name": "Epos Now",
+                "thumb": "assets/img/integrations/eposNow-integration.png",
+                "description": "EPOS solutions for every kind of sale"
+            },
+            {
+                "id": 2,
+                "name": "Micros",
+                "thumb": "assets/img/integrations/micros-integration.png",
+                "description": "Your complete restaurant management platform"
+            },
+            {
+                "id": 3,
+                "name": "NCR Aloha",
+                "thumb": "assets/img/integrations/ncr-integration.png",
+                "description": "Restaurant point-of-sale, made simple"
+            },
+            {
+                "id": 4,
+                "name": "Revel Systems",
+                "thumb": "assets/img/integrations/revel-integration.png",
+                "description": "Leading cloud-based point of sale"
+            },
+            {
+                "id": 5,
+                "name": "Square",
+                "thumb": "assets/img/integrations/square-integration.png",
+                "description": "Point of sale solutions to fit your business"
+            }
+        ]
+    },
+    {
+        "category": "marketplace",
+        "list": [
+            {
+                "id": 0,
+                "name": "Uber Eats",
+                "thumb": "assets/img/integrations/uberEats-integration.png",
+                "description": "Your favorite food, delivered with Uber"
+            },
+            {
+                "id": 1,
+                "name": "Deliveroo",
+                "thumb": "assets/img/integrations/deliveroo-integration.png",
+                "description": "The best local restaurants, delivered"
+            },
+            {
+                "id": 2,
+                "name": "Just Eat",
+                "thumb": "assets/img/integrations/justEat-integration.png",
+                "description": "Order from local restaurants and takeaways online with Just Eat"
+            },
+            {
+                "id": 3,
+                "name": "HungryPanda",
+                "thumb": "assets/img/integrations/hungrypanda-integration.png",
+                "description": "Feeding the demand for authentic Chinese food"
+            },
+            {
+                "id": 4,
+                "name": "Yofoodie",
+                "thumb": "assets/img/integrations/yofoodie-integration.png",
+                "description": "Find your favourite local chef"
+            },
+            {
+                "id": 5,
+                "name": "Flipdish",
+                "thumb": "assets/img/integrations/flipdish-integration.png",
+                "description": "Online ordering system for restaurants"
+            }
+        ]
+    },
+    {
+        "category": "ecommerce",
+        "list": [
+            {
+                "id": 0,
+                "name": "Shopify",
+                "thumb": "assets/img/logo/shopify-logo.png",
+                "description": "Offering eCommerce and point of sale features you need to start, run, and grow your business.",
+                "link": "https://www.shopify.com/"
+            }
+        ]
+    },
+    {
+        "category": "accounting",
+        "list": [
+            {
+                "id": 0,
+                "name": "Xero",
+                "thumb": "assets/img/logo/xero-logo.png",
+                "description": "Providing rapid Cloud-Based Deployment to optimise your operations.",
+                "link": "https://www.xero.com/"
+            }
+        ]
+    },
+    {
+        "category": "custom",
+        "list": [
+            {
+                "id": 0,
+                "name": "Webhooks",
+                "thumb": "assets/img/logo/webhooks-logo.png",
+                "description": "Receive updates about your store data in near real-time",
+                "link": ""
+            },
+            {
+                "id": 1,
+                "name": "API",
+                "thumb": "assets/img/logo/api-logo.png",
+                "description": "Access your store data via our HTTP API",
+                "link": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,199 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.sidebar {
+  background-color: #173753;
+  width: $sidebarWidth;
+  position: fixed;
+  top: 0;
+  transition: 0.3s;
+
+  &__active {
+    width: 90px;
+    padding: 0;
+  }
+
+  &-inner {
+    position: relative;
+    overflow: overlay;
+    height: 100vh;
+    padding: 30px;
+    .logo {
+      overflow: hidden;
+      position: relative;
+
+      h3 {
+        font-size: 2em;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+
+        position: fixed;
+        top: 0;
+        width: 300px;
+        left: 0;
+        right: 0;
+        height: 60px;
+        z-index: 1;
+        background-color: #173753;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      figure {
+        padding-top: 20px;
+        position: fixed;
+        top: 0;
+        width: 100px;
+        left: 0;
+        right: 0;
+        height: 60px;
+        z-index: 1;
+        background-color: #173753;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    &__menu {
+      margin-top: 30px;
+
+      .nav {
+        h4 {
+          color: #979baf;
+          margin-bottom: 1em;
+          padding-top: 10px;
+        }
+        &-item {
+          width: 100%;
+          cursor: pointer;
+          margin-bottom: 12px;
+          position: relative;
+
+          &__list {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-bottom: 10px;
+
+            i {
+              color: #dfdddd;
+              font-size: 15px;
+              vertical-align: -2px;
+            }
+
+            .left-icon {
+              margin-right: 10px;
+            }
+
+            span {
+              color: #fff;
+              font-size: 15px;
+            }
+
+            .right-icon {
+              position: absolute;
+              right: 10px;
+              i {
+                vertical-align: 2px;
+              }
+            }
+          }
+        }
+        .dropdown-area {
+          padding-top: 10px;
+          transition: 0.3s;
+          &:not(.show) {
+            display: none;
+          }
+          li {
+            font-size: 1.4em;
+            padding-left: 28px;
+            color: #afafaf;
+            margin-bottom: 10px;
+            position: relative;
+            transition: 0.3s;
+            cursor: pointer;
+            &::before {
+              content: "";
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              left: 0;
+              width: 10px;
+              height: 1px;
+              background-color: #afafaf;
+            }
+            &:hover {
+              color: #fff;
+            }
+            &:hover::before {
+              background-color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-mini {
+    .sidebar-inner {
+      overflow: initial;
+      padding: 0;
+      .logo {
+        border-bottom: 0;
+        h3 {
+          display: none;
+        }
+        figure {
+          margin-left: -5px;
+        }
+      }
+
+      &__menu {
+        margin-top: 75px;
+        .nav {
+          h4 {
+            width: 100%;
+            text-align: center;
+          }
+          &-item {
+            display: flex;
+            justify-content: center;
+            &__list {
+              .left-icon {
+                margin-right: 0;
+                i {
+                  font-size: 2em;
+                }
+              }
+              span {
+                display: none;
+              }
+              .right-icon {
+                display: none;
+              }
+            }
+            .dropdown-area {
+              // display: none;
+              position: absolute;
+              background-color: #1e476b;
+              left: 90px;
+              top: 0;
+              padding: 30px;
+              border-radius: 0 10px 10px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

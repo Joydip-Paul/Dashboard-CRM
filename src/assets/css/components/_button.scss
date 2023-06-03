@@ -1,0 +1,95 @@
+@use './variables' as *;
+@use './mixins' as *;
+
+
+button {
+
+    &:active,
+    &:focus {
+        outline: 0;
+        border: 0;
+        background-color: $primaryColor;
+    }
+}
+
+.main-btn {
+    min-width: 180px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    background: $primaryColor;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid $primaryColor;
+    transition: all 0.3s linear;
+    text-transform: uppercase;
+    line-height: 1;
+
+    &:hover {
+        background-color: $primaryDark;
+        color: #fff;
+    }
+
+    &-banner {
+        background: $primaryColor;
+        -webkit-text-stroke: 0.5px #fff;
+        text-transform: uppercase;
+        border: none;
+        color: #fff;
+        letter-spacing: 1px;
+        min-width: 300px;
+        &:hover {
+            background-color: $primaryDark;
+            color: #ffffff;
+            -webkit-text-stroke-color: #ffffff;
+        }
+    }
+
+    &-rounded {
+        border-radius: 30px;
+    }
+
+    &-primary {
+        background-color: $primaryColor !important;
+        color: #fff;
+    }
+
+    &-disabled {
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #c0c0c0;
+        background-color: #ffffff;
+    }
+
+    &-shadow {
+        box-shadow: 0 26px 19px -10px #34aaea7d;
+    }
+
+    &:active, &:focus {
+        background-color: $textColor;
+        color: #ffffff;
+    }
+
+    @include breakpoint-max(991px) {
+        min-width: 185px;
+        height: 55px;
+        font-size: 1.6em;
+        &-banner {
+            min-width: 300px;
+        }
+    }
+
+    @include breakpoint-max(767px) {
+        min-width: 165px;
+        height: 50px;
+        font-size: 1.5em;
+        &-banner {
+            min-width: 200px;
+        }
+    }
+}
