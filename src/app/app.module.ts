@@ -1,15 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-// import { NZ_I18N } from 'ng-zorro-antd/i18n';
-// import { en_US } from 'ng-zorro-antd/i18n';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-// import { SharedModule } from './shared/shared.module';
+import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { SidebarComponent } from './modules/sidebar/sidebar.component';
+import { NZ_I18N } from 'ng-zorro-antd/i18n';
+import { en_US } from 'ng-zorro-antd/i18n';
+import { registerLocaleData } from '@angular/common';
+import en from '@angular/common/locales/en';
+import { NzButtonModule } from 'ng-zorro-antd/button';
+
+registerLocaleData(en);
 
 @NgModule({
   declarations: [AppComponent, SidebarComponent],
@@ -20,9 +25,10 @@ import { SidebarComponent } from './modules/sidebar/sidebar.component';
     HttpClientModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    // SharedModule
+    SharedModule,
+    NzButtonModule,
   ],
-  // providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent],
+  providers: [{ provide: NZ_I18N, useValue: en_US }],
 })
 export class AppModule {}

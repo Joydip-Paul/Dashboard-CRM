@@ -6,16 +6,8 @@ import { DashboardComponent } from './dashboard.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TestComponent } from './components/test/test.component';
 
-
 @NgModule({
-  declarations: [
-    DashboardComponent,
-    HeaderComponent,
-    TestComponent
-  ],
-  imports: [
-    CommonModule,
-    DashboardRoutingModule
-  ]
+  declarations: [DashboardComponent, HeaderComponent, TestComponent],
+  imports: [CommonModule, DashboardRoutingModule],
 })
-export class DashboardModule { }
+export class DashboardModule {}
