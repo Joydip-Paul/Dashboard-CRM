@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,7 +12,7 @@ import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { en_US } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
-import { NzButtonModule } from 'ng-zorro-antd/button';
+import { DashboardModule } from './modules/dashboard/dashboard.module';
 
 registerLocaleData(en);
 
@@ -26,8 +26,9 @@ registerLocaleData(en);
     BrowserAnimationsModule,
     AppRoutingModule,
     SharedModule,
-    NzButtonModule,
+    DashboardModule,
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
 })
