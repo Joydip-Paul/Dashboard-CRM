@@ -10,9 +10,21 @@ import { CrmComponent } from './components/crm/crm.component';
 import { AnalyticsComponent } from './components/analytics/analytics.component';
 import { EcommerceComponent } from './components/ecommerce/ecommerce.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
-  declarations: [DashboardComponent, HeaderComponent, TestComponent, CrmComponent, AnalyticsComponent, EcommerceComponent, ProjectsComponent],
-  imports: [CommonModule, DashboardRoutingModule, SharedModule]
+  declarations: [
+    DashboardComponent,
+    HeaderComponent,
+    TestComponent,
+    CrmComponent,
+    AnalyticsComponent,
+    EcommerceComponent,
+    ProjectsComponent,
+    SidebarComponent,
+    HomeComponent,
+  ],
+  imports: [CommonModule, DashboardRoutingModule, SharedModule],
 })
-export class DashboardModule { }
+export class DashboardModule {}

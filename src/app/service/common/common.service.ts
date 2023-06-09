@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class CommonService {
   // isSidebar:boolean = false;
@@ -12,8 +12,7 @@ export class CommonService {
   private dashboardBody = new BehaviorSubject<boolean>(false);
   public dashboardBody$ = this.dashboardBody.asObservable();
 
-
-  constructor() { }
+  constructor() {}
 
   toggleSidebar(): void {
     this.sidebarState.next(true);

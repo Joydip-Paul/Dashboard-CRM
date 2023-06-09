@@ -8,23 +8,104 @@
   top: 0;
   transition: 0.3s;
 
+  @include breakpoint-max(991px) {
+    width: 90px;
+    .sidebar-inner {
+      overflow: initial;
+      padding: 0;
+
+      .logo {
+        border-bottom: 0;
+
+        h3 {
+          display: none;
+        }
+
+        figure {
+          margin-left: -5px;
+        }
+      }
+
+      &__menu {
+        margin-top: 120px;
+
+        .nav {
+          h4 {
+            width: 100%;
+
+            span {
+              display: none;
+            }
+
+            img {
+              display: block;
+              width: 20px;
+              margin-left: auto;
+              margin-right: auto;
+              filter: brightness(0) saturate(97%) invert(70%) sepia(10%)
+                saturate(800%) hue-rotate(148deg) brightness(78%) contrast(42%);
+            }
+          }
+
+          &-item {
+            display: flex;
+            justify-content: center;
+            overflow: initial;
+
+            &:hover {
+              .dropdown-area {
+                display: block;
+              }
+            }
+
+            &__list {
+              .left-icon {
+                margin-right: 0;
+
+                i {
+                  font-size: 20px;
+                }
+              }
+
+              span {
+                display: none;
+              }
+
+              .right-icon {
+                display: none;
+              }
+            }
+
+            .dropdown-area {
+              position: absolute;
+              background-color: #173753;
+              left: 90px;
+              top: 0;
+              padding: 30px;
+              border-radius: 0 10px 10px 0;
+              display: none;
+              transition: 0.3s;
+              border-left: 1px solid #4c7192;
+              z-index: 999 !important;
+
+              &:not(.show) {
+                height: auto;
+              }
+
+              .mobile-title {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   &__active {
     width: 90px;
     padding: 0;
-    // .sidebar__footer {
-    //   width: 90px;
-    //   transition: .3s;
-    // }
   }
-
-  // &__footer {
-  //   background-color: #173753;
-  //   position: fixed;
-  //   left: 0;
-  //   bottom: 0;
-  //   height: 10px;
-  //   width: 300px;
-  // }
 
   &-inner {
     position: relative;
@@ -67,6 +148,9 @@
       background-color: #173753;
       border-bottom: 1px solid #4c7192;
       margin-bottom: 10px;
+      @include breakpoint-max(767px) {
+        width: 90px;
+      }
 
       h3 {
         font-size: 2em;
@@ -224,7 +308,9 @@
       }
 
       &__menu {
-        margin-top: 75px;
+        margin-top: 110px;
+        overflow: initial;
+        height: 100%;
 
         .nav {
           h4 {

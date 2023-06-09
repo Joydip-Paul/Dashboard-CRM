@@ -1,9 +1,12 @@
 <div class="header" [ngClass]="{ header__active: isHeaderFullArea }">
   <div class="header__inner">
     <div class="hamburger">
-      <!-- <i class="fa-solid fa-align-left"></i> -->
       <button (click)="openCart()">
-        <i [ngClass]="isHeaderFullArea ? 'fa-solid fa-xmark' : 'fa-solid fa-align-left'"></i>
+        <i
+          [ngClass]="
+            isHeaderFullArea ? 'fa-solid fa-xmark' : 'fa-solid fa-align-left'
+          "
+        ></i>
       </button>
       <div class="search">
         <span><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -12,11 +15,18 @@
     </div>
     <nav>
       <ul>
-        <li><img src="assets/img/apps-icon.png" alt="" /></li>
+        <li>
+          <img src="assets/img/apps-icon.png" alt="" />
+        </li>
         <li><img src="assets/img/cart-icon.png" alt="" /></li>
         <li><img src="assets/img/moon-icon.png" alt="" /></li>
         <li><img src="assets/img/notification-icon.png" alt="" /></li>
-       <li nz-dropdown nzTrigger="click" nzOverlayClassName="profile-dropdown" [nzDropdownMenu]="menu">
+        <li
+          nz-dropdown
+          nzTrigger="click"
+          nzOverlayClassName="profile-dropdown"
+          [nzDropdownMenu]="menu"
+        >
           <img src="assets/img/avatar.jpeg" alt="" />
           <nz-dropdown-menu #menu="nzDropdownMenu">
             <ul nz-menu>

@@ -10,6 +10,11 @@
   right: 0;
   transition: 0.3s;
 
+  @include breakpoint-max(991px) {
+    width: calc(100% - 90px);
+    left: 90px;
+  }
+
   &__active {
     left: 90px;
     width: calc(100% - 90px);
@@ -26,13 +31,17 @@
     .hamburger {
       display: flex;
       align-items: center;
-
       button {
         background-color: transparent;
         border: none;
         color: #212121;
         font-size: 2em;
         cursor: pointer;
+      }
+      @include breakpoint-max(991px) {
+        button {
+          display: none;
+        }
       }
 
       .search {

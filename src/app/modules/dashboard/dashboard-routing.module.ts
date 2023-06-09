@@ -5,9 +5,22 @@ import { CrmComponent } from './components/crm/crm.component';
 import { AnalyticsComponent } from './components/analytics/analytics.component';
 
 const routes: Routes = [
-  { path: '', component: DashboardComponent },
-  { path: 'crm', component: CrmComponent },
-  { path: 'analytics', component: AnalyticsComponent },
+  {
+    path: '',
+    component: DashboardComponent,
+
+    children: [
+      {
+        path: 'crm',
+        component: CrmComponent,
+      },
+
+      {
+        path: 'analytics',
+        component: AnalyticsComponent,
+      },
+    ],
+  },
 ];
 
 @NgModule({

@@ -7,13 +7,10 @@ import { CommonService } from 'src/app/service/common/common.service';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {
+  isHeaderFullArea: boolean = false;
+  constructor(private commonService: CommonService) {}
 
-  isHeaderFullArea:boolean = false;
-  constructor(private commonService: CommonService) {
-  }
-
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   openCart() {
     this.commonService.toggleSidebar();

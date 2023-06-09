@@ -1,0 +1,26 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.home {
+  &-header {
+    display: flex;
+    &__each {
+      background-color: #fff;
+      margin-right: 20px;
+      padding: 20px;
+      box-shadow: $shadow;
+      border-radius: 5px;
+      h3 {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 1em;
+        line-height: 1.4;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

@@ -1,7 +1,15 @@
-<div class="sidebar" [ngClass]="{ 'sidebar__active sidebar-mini': isSidebar }">
+<div
+  class="sidebar"
+  [ngClass]="{
+    'sidebar__active sidebar-mini': isSidebar
+  }"
+>
   <div class="sidebar-inner">
     <div class="logo">
       <h3 routerLink="/">Manate</h3>
+      <figure class="d-lg-none">
+        <img src="assets/img/logo.jpeg" alt="" />
+      </figure>
       <figure *ngIf="isSidebar">
         <img src="assets/img/logo.jpeg" alt="" />
       </figure>
