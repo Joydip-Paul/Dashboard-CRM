@@ -9,6 +9,7 @@
   left: $sidebarWidth;
   right: 0;
   transition: 0.3s;
+  z-index: 100;
 
   @include breakpoint-max(991px) {
     width: calc(100% - 90px);

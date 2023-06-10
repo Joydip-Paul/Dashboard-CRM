@@ -10,6 +10,7 @@
 
   @include breakpoint-max(991px) {
     width: 90px;
+    position: absolute;
     .sidebar-inner {
       overflow: initial;
       padding: 0;
@@ -20,14 +21,10 @@
         h3 {
           display: none;
         }
-
-        figure {
-          margin-left: -5px;
-        }
       }
 
       &__menu {
-        margin-top: 120px;
+        margin-top: 80px;
 
         .nav {
           h4 {
@@ -59,6 +56,9 @@
             }
 
             &__list {
+              width: 100%;
+              display: flex;
+              justify-content: center;
               .left-icon {
                 margin-right: 0;
 
@@ -68,7 +68,20 @@
               }
 
               span {
+                position: absolute;
+                left: 91px;
+                background-color: #173753;
+                padding: 10px;
+                z-index: 999;
+                border-radius: 5px;
+                min-width: 150px;
+                margin-top: 10px;
                 display: none;
+              }
+              &:hover {
+                span {
+                  display: block;
+                }
               }
 
               .right-icon {
@@ -96,6 +109,13 @@
                 display: block;
               }
             }
+          }
+        }
+
+        .drop {
+          span {
+            opacity: 0;
+            pointer-events: none;
           }
         }
       }
@@ -165,7 +185,7 @@
         padding-top: 20px;
         position: fixed;
         top: 0;
-        width: 100px;
+        width: 90px;
         left: 0;
         right: 0;
         height: 60px;
@@ -178,7 +198,7 @@
         img {
           width: 50px;
           height: 50px;
-          border-radius: 50%;
+          border-radius: 5px;
         }
       }
     }
@@ -209,7 +229,7 @@
           &__list {
             display: flex;
             align-items: center;
-            position: relative;
+            // position: relative;
             margin-bottom: 10px;
 
             i {
@@ -291,24 +311,22 @@
   }
 
   &-mini {
+    position: absolute;
     .sidebar-inner {
       overflow: initial;
       padding: 0;
 
       .logo {
         border-bottom: 0;
+        width: 90px;
 
         h3 {
           display: none;
         }
-
-        figure {
-          margin-left: -5px;
-        }
       }
 
       &__menu {
-        margin-top: 110px;
+        margin-top: 80px;
         overflow: initial;
         height: 100%;
 
@@ -336,14 +354,10 @@
             justify-content: center;
             overflow: initial;
 
-            &:hover {
-              .dropdown-area {
-                // opacity: 1;
-                display: block;
-              }
-            }
-
             &__list {
+              width: 100%;
+              display: flex;
+              justify-content: center;
               .left-icon {
                 margin-right: 0;
 
@@ -353,7 +367,20 @@
               }
 
               span {
+                position: absolute;
+                left: 91px;
+                background-color: #173753;
+                padding: 10px;
+                z-index: 999;
+                border-radius: 5px;
+                min-width: 150px;
+                margin-top: 10px;
                 display: none;
+              }
+              &:hover {
+                span {
+                  display: block;
+                }
               }
 
               .right-icon {
@@ -382,6 +409,19 @@
                 display: block;
               }
             }
+
+            &:hover {
+              .dropdown-area {
+                display: block;
+              }
+            }
+          }
+        }
+
+        .drop {
+          span {
+            opacity: 0;
+            pointer-events: none;
           }
         }
       }

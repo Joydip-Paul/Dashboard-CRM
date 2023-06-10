@@ -4,7 +4,9 @@
       <button (click)="openCart()">
         <i
           [ngClass]="
-            isHeaderFullArea ? 'fa-solid fa-xmark' : 'fa-solid fa-align-left'
+            isHeaderFullArea
+              ? 'fa-solid fa-bars-staggered'
+              : 'fa-solid fa-align-left'
           "
         ></i>
       </button>
