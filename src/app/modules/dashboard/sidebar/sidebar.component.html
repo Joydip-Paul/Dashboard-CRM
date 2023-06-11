@@ -6,7 +6,13 @@
 >
   <div class="sidebar-inner">
     <div class="logo">
-      <h3 routerLink="/">Manate</h3>
+      <h3
+        routerLinkActive="active"
+        (click)="goToPage('/')"
+        [ngClass]="{ active: isActive('/') }"
+      >
+        Manate
+      </h3>
       <figure class="d-lg-none">
         <img src="assets/img/logo.jpeg" alt="" />
       </figure>
@@ -27,16 +33,27 @@
               <i class="fa-solid fa-chevron-down"></i>
             </div>
           </div>
-          <ul class="dropdown-area show">
+          <ul class="dropdown-area sho">
             <li class="mobile-title">Dashboard</li>
             <li routerLink="/analytics">Analytics</li>
-            <li routerLink="/crm">CRM</li>
+            <li
+              routerLinkActive="active"
+              (click)="goToPage('/crm')"
+              [ngClass]="{ active: isActive('/crm') }"
+            >
+              CRM
+            </li>
             <li>Crypto</li>
             <li>NFT</li>
             <li>Job</li>
           </ul>
         </li>
-        <li class="nav-item">
+        <li
+          class="nav-item"
+          routerLinkActive="active"
+          (click)="goToPage('/analytics')"
+          [ngClass]="{ active: isActive('/analytics') }"
+        >
           <div class="nav-item__list">
             <div class="left-icon">
               <i class="fa-solid fa-table"></i>

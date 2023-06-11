@@ -428,3 +428,17 @@
     }
   }
 }
+
+.active {
+  .nav-item__list {
+    .left-icon,
+    .right-icon {
+      i {
+        color: #589cd7;
+      }
+    }
+    span {
+      color: #589cd7;
+    }
+  }
+}

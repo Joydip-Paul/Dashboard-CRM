@@ -26,6 +26,9 @@
       width: 60%;
       overflow: hidden;
       position: relative;
+      .inner {
+        background-color: #eaf3fe;
+      }
       img {
         position: absolute;
         bottom: 0;
@@ -36,6 +39,7 @@
         font-size: 1.8em;
         font-weight: 700;
         margin-bottom: 10px;
+        color: $headText;
       }
       p {
         font-size: 1.2em;
@@ -50,17 +54,18 @@
           h4 {
             font-size: 2.5em;
             font-weight: 700;
-            color: rebeccapurple;
+            color: #607288;
             margin-bottom: 5px;
           }
           p {
             max-width: 100%;
+            margin-bottom: 0;
           }
         }
       }
       @include breakpoint-max(1399px) {
         img {
-          display: none;
+          width: 180px;
         }
         p {
           max-width: 100%;
@@ -68,14 +73,20 @@
       }
 
       @include breakpoint-max(1199px) {
+        img {
+          display: none;
+        }
         .today-info {
           h4 {
-            font-size: 1.5em;
+            font-size: 2em;
           }
         }
       }
 
       @include breakpoint-max(991px) {
+        h3 {
+          font-size: 1.6em;
+        }
         .today-info {
           justify-content: space-between;
           &__each {
@@ -86,21 +97,56 @@
           }
         }
       }
-      @include breakpoint-max(991px) {
+      @include breakpoint-max(767px) {
         .today-info {
           flex-direction: column;
+          &__each {
+            margin-bottom: 20px;
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
         }
       }
     }
     .data-box {
       width: 40%;
-      h3 {
-        font-size: 1.4em;
-        margin-bottom: 10px;
+      &__header {
+        display: flex;
+        justify-content: space-between;
+        .icon-box {
+          background-color: $primaryColor;
+          color: #fff;
+        }
+        h3 {
+          font-size: 2em;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 1.2em;
+        }
       }
-      p {
-        font-size: 1em;
-        line-height: 1.4;
+      &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+          font-size: 1.2em;
+          margin-bottom: 0;
+        }
+      }
+      .bar {
+        width: 100%;
+        height: 5px;
+        background-color: #c7d7eb;
+        margin-top: 10px;
+        position: relative;
+        span {
+          position: absolute;
+          width: 50%;
+          height: 5px;
+          background-color: $primaryColor;
+        }
       }
     }
     @include breakpoint-max(991px) {

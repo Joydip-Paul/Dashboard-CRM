@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { CommonService } from 'src/app/service/common/common.service';
 
 @Component({
@@ -9,7 +10,7 @@ import { CommonService } from 'src/app/service/common/common.service';
 export class SidebarComponent {
   isSidebar: boolean = true;
 
-  constructor(private commonService: CommonService) {}
+  constructor(private commonService: CommonService, private router: Router) {}
 
   expandDropdown(event: any): void {
     let self = event.target;
@@ -66,6 +67,15 @@ export class SidebarComponent {
 
   ngOnInit(): void {
     this.getOpenSidebar();
+  }
+
+  isActive(url: string): boolean {
+    return url === this.router.url;
+  }
+
+  goToPage(slug: any): void {
+    console.log('ok');
+    this.router.navigate([`${slug}`]);
   }
 
   getOpenSidebar() {

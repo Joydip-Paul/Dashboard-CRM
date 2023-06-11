@@ -1,19 +1,25 @@
-@use '../abstracts/variables' as *;
-@use '../abstracts/mixins' as *;
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
 
 .icon-box {
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    margin-right: 20px;
-    background-color: #F6F7F9;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #f6f7f9;
 
-    i {
-        font-size: 30px;
-        line-height: 1;
-        display: inline-flex;
-    }
+  i {
+    font-size: 30px;
+    line-height: 1;
+    display: inline-flex;
+  }
+}
+
+.flex-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
