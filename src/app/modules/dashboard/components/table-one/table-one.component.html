@@ -1,0 +1,27 @@
+<div class="table-one pt-25">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of tableData">
+        <td>{{ data.id }}</td>
+        <td>{{ data.firstname }}</td>
+        <td>{{ data.lastname }}</td>
+        <td>{{ data.email }}</td>
+        <td class="action">
+          <span><i class="fa fa-eye"></i></span>
+          <span><i class="fa fa-edit"></i></span>
+          <span><i class="fa fa-trash"></i></span>
+        </td>
+      </tr>
+      <tr></tr>
+    </tbody>
+  </table>
+</div>

@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     &__each {
       padding-right: 20px;
-      margin-bottom: 25px;
+      // margin-bottom: 25px;
       &:last-child {
         padding-right: 0;
       }
@@ -164,4 +164,9 @@
       }
     }
   }
+}
+
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
 }

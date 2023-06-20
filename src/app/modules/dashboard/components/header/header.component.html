@@ -1,7 +1,7 @@
 <div class="header" [ngClass]="{ header__active: isHeaderFullArea }">
   <div class="header__inner">
     <div class="hamburger">
-      <button (click)="openCart()">
+      <button (click)="openSidebar()">
         <i
           [ngClass]="
             isHeaderFullArea
@@ -57,9 +57,9 @@
 
   <div class="header-bottom">
     <div class="header-bottom__inner">
-      <h3>Analytics</h3>
+      <h3>{{ pageTitle }}</h3>
       <ul>
-        <li>Dashboard > Analytics</li>
+        <li>{{ parentPage }} > {{ pageTitle }}</li>
       </ul>
     </div>
   </div>

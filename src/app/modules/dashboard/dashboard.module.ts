@@ -12,6 +12,7 @@ import { EcommerceComponent } from './components/ecommerce/ecommerce.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './components/home/home.component';
+import { TableOneComponent } from './components/table-one/table-one.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { HomeComponent } from './components/home/home.component';
     ProjectsComponent,
     SidebarComponent,
     HomeComponent,
+    TableOneComponent,
   ],
   imports: [CommonModule, DashboardRoutingModule, SharedModule],
 })

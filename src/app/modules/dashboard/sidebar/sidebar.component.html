@@ -51,8 +51,8 @@
         <li
           class="nav-item"
           routerLinkActive="active"
-          (click)="goToPage('/analytics')"
-          [ngClass]="{ active: isActive('/analytics') }"
+          (click)="goToPage('/layout')"
+          [ngClass]="{ active: isActive('/layout') }"
         >
           <div class="nav-item__list">
             <div class="left-icon">
@@ -117,6 +117,21 @@
         </li>
 
         <h4><span>ELEMENTS</span> <img src="assets/img/more.png" alt="" /></h4>
+        <li class="nav-item drop">
+          <div class="nav-item__list" (click)="expandDropdown($event)">
+            <div class="left-icon">
+              <i class="fa-solid fa-table-list"></i>
+            </div>
+            <span>Tables</span>
+            <div class="right-icon">
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+          <ul class="dropdown-area show">
+            <li routerLink="/table-one">Table one</li>
+            <li>Table two</li>
+          </ul>
+        </li>
         <li class="nav-item">
           <div class="nav-item__list">
             <div class="left-icon">
@@ -156,17 +171,6 @@
               <i class="fa-solid fa-file-waveform"></i>
             </div>
             <span>Forms</span>
-            <div class="right-icon">
-              <i class="fa-solid fa-chevron-right"></i>
-            </div>
-          </div>
-        </li>
-        <li class="nav-item">
-          <div class="nav-item__list">
-            <div class="left-icon">
-              <i class="fa-solid fa-table-list"></i>
-            </div>
-            <span>Tables</span>
             <div class="right-icon">
               <i class="fa-solid fa-chevron-right"></i>
             </div>

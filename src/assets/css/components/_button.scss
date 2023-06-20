@@ -33,21 +33,6 @@ button {
     color: #fff;
   }
 
-  &-banner {
-    background: $primaryColor;
-    -webkit-text-stroke: 0.5px #fff;
-    text-transform: uppercase;
-    border: none;
-    color: #fff;
-    letter-spacing: 1px;
-    min-width: 300px;
-    &:hover {
-      background-color: $primaryDark;
-      color: #ffffff;
-      -webkit-text-stroke-color: #ffffff;
-    }
-  }
-
   &-rounded {
     border-radius: 30px;
   }

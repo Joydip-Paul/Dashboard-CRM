@@ -285,6 +285,7 @@
             position: relative;
             transition: 0.3s;
             cursor: pointer;
+            min-width: 100px;
 
             &::before {
               content: "";
@@ -312,6 +313,8 @@
 
   &-mini {
     position: absolute;
+    min-height: 100vh;
+    height: auto;
     .sidebar-inner {
       overflow: initial;
       padding: 0;

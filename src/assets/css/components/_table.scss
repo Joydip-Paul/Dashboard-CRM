@@ -1,0 +1,41 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.table {
+  thead {
+    th {
+      padding: 10px 16px;
+      //   &:last-child {
+      //     display: flex;
+      //     justify-content: end;
+      //   }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        padding: 10px 16px;
+        // &:last-child {
+        //   display: flex;
+        //   justify-content: end;
+        // }
+      }
+      .action {
+        display: flex;
+        span {
+          display: block;
+          margin-right: 10px;
+          cursor: pointer;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.table-one {
+  overflow: auto;
+}
