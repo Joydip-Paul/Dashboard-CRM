@@ -8,3 +8,68 @@
 .profile-dropdown {
     top: 15px !important;
 }
+
+.ant-modal-close {
+    display: none !important;
+}
+
+.ant-modal-footer {
+    display: none !important;
+}
+
+.component-modal {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+
+        .modal-title {
+            font-size: 1.4em;
+            color: #6e6e6e;
+        }
+
+        .modal-close {
+            button {
+                background: none;
+                border: none;
+                font-size: 1.6em;
+                color: #6e6e6e;
+            }
+        }
+    }
+
+    &__body {
+        overflow: auto;
+        padding-top: 10px;
+    }
+
+    &__footer {
+        border-top: 1px solid #eee;
+        padding-top: 20px;
+        display: flex;
+        justify-content: end;
+
+        button {
+            border: none;
+            padding: 5px 20px;
+            border-radius: 4px;
+            margin-right: 16px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        .cancel-btn {
+            background: #e0e0e0;
+            color: #212121;
+        }
+
+        .add-btn {
+            background: $primaryColor;
+            color: #fff;
+        }
+    }
+}

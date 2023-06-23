@@ -13,6 +13,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './components/home/home.component';
 import { TableOneComponent } from './components/table-one/table-one.component';
+import { DataViewModalComponent } from './components/table-one/modals/data-view-modal/data-view-modal.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { TableOneComponent } from './components/table-one/table-one.component';
     SidebarComponent,
     HomeComponent,
     TableOneComponent,
+    DataViewModalComponent,
   ],
   imports: [CommonModule, DashboardRoutingModule, SharedModule],
 })

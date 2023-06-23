@@ -9,7 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { en_US } from 'ng-zorro-antd/i18n';
-import { registerLocaleData } from '@angular/common';
+import { CommonModule, registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { DashboardModule } from './modules/dashboard/dashboard.module';
 import { NgApexchartsModule } from 'ng-apexcharts';
@@ -28,6 +28,7 @@ registerLocaleData(en);
     SharedModule,
     DashboardModule,
     NgApexchartsModule,
+    CommonModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent],
