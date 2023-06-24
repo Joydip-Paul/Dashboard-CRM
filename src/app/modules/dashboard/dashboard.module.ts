@@ -14,6 +14,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './components/home/home.component';
 import { TableOneComponent } from './components/table-one/table-one.component';
 import { DataViewModalComponent } from './components/table-one/modals/data-view-modal/data-view-modal.component';
+import { BarChartComponent } from '../charts/bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { DataViewModalComponent } from './components/table-one/modals/data-view-
     HomeComponent,
     TableOneComponent,
     DataViewModalComponent,
+    BarChartComponent,
   ],
   imports: [CommonModule, DashboardRoutingModule, SharedModule],
 })
