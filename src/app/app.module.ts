@@ -12,6 +12,7 @@ import { en_US } from 'ng-zorro-antd/i18n';
 import { CommonModule, registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { DashboardModule } from './modules/dashboard/dashboard.module';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 // import { NgApexchartsModule } from 'ng-apexcharts';
 
 registerLocaleData(en);
@@ -27,7 +28,7 @@ registerLocaleData(en);
     AppRoutingModule,
     SharedModule,
     DashboardModule,
-    // NgApexchartsModule,
+    NgxChartsModule,
     CommonModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

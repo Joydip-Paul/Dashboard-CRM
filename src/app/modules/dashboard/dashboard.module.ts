@@ -15,6 +15,7 @@ import { HomeComponent } from './components/home/home.component';
 import { TableOneComponent } from './components/table-one/table-one.component';
 import { DataViewModalComponent } from './components/table-one/modals/data-view-modal/data-view-modal.component';
 import { BarChartComponent } from '../charts/bar-chart/bar-chart.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,11 @@ import { BarChartComponent } from '../charts/bar-chart/bar-chart.component';
     DataViewModalComponent,
     BarChartComponent,
   ],
-  imports: [CommonModule, DashboardRoutingModule, SharedModule],
+  imports: [
+    CommonModule,
+    DashboardRoutingModule,
+    SharedModule,
+    NgxChartsModule,
+  ],
 })
 export class DashboardModule {}

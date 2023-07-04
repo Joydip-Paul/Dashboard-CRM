@@ -11,6 +11,10 @@
   @include breakpoint-max(991px) {
     width: 90px;
     position: absolute;
+    &__footer {
+      height: 100%;
+      background-color: #173753;
+    }
     .sidebar-inner {
       overflow: initial;
       padding: 0;
@@ -315,6 +319,10 @@
     position: absolute;
     min-height: 100vh;
     height: auto;
+    .sidebar__footer {
+      height: 100%;
+      background-color: #173753;
+    }
     .sidebar-inner {
       overflow: initial;
       padding: 0;
