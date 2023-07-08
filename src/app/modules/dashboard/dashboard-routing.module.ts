@@ -5,6 +5,7 @@ import { CrmComponent } from './components/crm/crm.component';
 import { AnalyticsComponent } from './components/analytics/analytics.component';
 import { HomeComponent } from './components/home/home.component';
 import { TableOneComponent } from './components/table-one/table-one.component';
+import { ChartCollectionOneComponent } from './components/chart-collection-one/chart-collection-one.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
       {
         path: 'table-one',
         component: TableOneComponent,
+      },
+      {
+        path: 'chart-collection-one',
+        component: ChartCollectionOneComponent,
       },
     ],
   },

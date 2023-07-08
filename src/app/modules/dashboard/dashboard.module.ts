@@ -16,6 +16,10 @@ import { TableOneComponent } from './components/table-one/table-one.component';
 import { DataViewModalComponent } from './components/table-one/modals/data-view-modal/data-view-modal.component';
 import { BarChartComponent } from '../charts/bar-chart/bar-chart.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { ChartCollectionOneComponent } from './components/chart-collection-one/chart-collection-one.component';
+import { ChartCollectionTwoComponent } from './components/chart-collection-two/chart-collection-two.component';
+import { LineChartComponent } from '../charts/line-chart/line-chart.component';
+import { PieChartComponent } from '../charts/pie-chart/pie-chart.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +35,10 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
     TableOneComponent,
     DataViewModalComponent,
     BarChartComponent,
+    LineChartComponent,
+    PieChartComponent,
+    ChartCollectionOneComponent,
+    ChartCollectionTwoComponent,
   ],
   imports: [
     CommonModule,

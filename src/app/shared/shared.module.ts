@@ -67,12 +67,10 @@ import { NzUploadModule } from 'ng-zorro-antd/upload';
 import { NzResizableModule } from 'ng-zorro-antd/resizable';
 import { NzPipesModule } from 'ng-zorro-antd/pipes';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-// import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 @NgModule({
   declarations: [],
   imports: [
-    // NgxChartsModule,
     FormsModule,
     ReactiveFormsModule,
     CommonModule,

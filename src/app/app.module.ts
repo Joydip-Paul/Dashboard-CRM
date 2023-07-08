@@ -13,7 +13,6 @@ import { CommonModule, registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { DashboardModule } from './modules/dashboard/dashboard.module';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
-// import { NgApexchartsModule } from 'ng-apexcharts';
 
 registerLocaleData(en);
 

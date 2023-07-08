@@ -176,16 +176,20 @@
             </div>
           </div>
         </li>
-        <li class="nav-item">
-          <div class="nav-item__list">
+        <li class="nav-item drop">
+          <div class="nav-item__list" (click)="expandDropdown($event)">
             <div class="left-icon">
               <i class="fa-solid fa-chart-pie"></i>
             </div>
             <span>Charts</span>
             <div class="right-icon">
-              <i class="fa-solid fa-chevron-right"></i>
+              <i class="fa-solid fa-chevron-down"></i>
             </div>
           </div>
+          <ul class="dropdown-area show">
+            <li routerLink="/chart-collection-one">Chart Collection One</li>
+            <li routerLink="/chart-collection-two">Chart Collection Two</li>
+          </ul>
         </li>
         <li class="nav-item">
           <div class="nav-item__list">
