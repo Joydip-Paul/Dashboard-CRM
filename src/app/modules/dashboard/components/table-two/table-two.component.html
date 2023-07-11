@@ -1,28 +1,27 @@
 <div class="table-one pt-25">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Id</th>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Email</th>
-          <th>Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let data of tableData">
-          <td><span class="res-head">Id:</span>{{ data.id }}</td>
-          <td><span class="res-head">Firstname:</span>{{ data.firstname }}</td>
-          <td><span class="res-head">Lastname:</span>{{ data.lastname }}</td>
-          <td><span class="res-head">Email:</span>{{ data.email }}</td>
-          <td class="action">
-            <span (click)="dataShowModal(data)"><i class="fa fa-eye"></i></span>
-            <span><i class="fa fa-edit"></i></span>
-            <span (click)="deleteModal()"><i class="fa fa-trash"></i></span>
-          </td>
-        </tr>
-        <tr></tr>
-      </tbody>
-    </table>
-  </div>
-  
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of tableData">
+        <td><span class="res-head">Id:</span>{{ data.id }}</td>
+        <td><span class="res-head">Firstname:</span>{{ data.firstname }}</td>
+        <td><span class="res-head">Lastname:</span>{{ data.lastname }}</td>
+        <td><span class="res-head">Email:</span>{{ data.email }}</td>
+        <td class="action">
+          <span (click)="dataShowModal(data)"><i class="fa fa-eye"></i></span>
+          <span><i class="fa fa-edit"></i></span>
+          <span (click)="deleteModal(data)"><i class="fa fa-trash"></i></span>
+        </td>
+      </tr>
+      <tr></tr>
+    </tbody>
+  </table>
+</div>

@@ -1,15 +1,19 @@
 <div class="component-modal">
-    <div class="component-modal__header">
-        <div class="modal-title" *ngIf="itemDetails">Details of {{itemDetails.firstname + " " + itemDetails.lastname}}</div>
-        <div class="modal-close">
-            <button class="close-btn" (click)="closeTaskModal()"><i class="fa fa-close"></i></button>
-        </div>
+  <div class="component-modal__header">
+    <div class="modal-title">
+      {{ itemDetails.firstname + " " + itemDetails.lastname }}
     </div>
-    <div class="component-modal__body">
-        <p>Are you sure to delete</p>
-        <button class="main-btn">Ok</button>
+    <div class="modal-close">
+      <button class="close-btn" (click)="closeTaskModal()">
+        <i class="fa fa-close"></i>
+      </button>
     </div>
-    <div class="component-modal__footer">
-        <button class="cencel-btn" (click)="closeTaskModal()">Cancel</button>
-    </div>
+  </div>
+  <div class="component-modal__body">
+    <p>
+      Delete
+      {{ itemDetails.firstname + " " + itemDetails.lastname }}
+    </p>
+    <button class="main-btn" (click)="closeTaskModal()">Yes</button>
+  </div>
 </div>

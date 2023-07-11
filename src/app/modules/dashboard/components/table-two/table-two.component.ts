@@ -19,7 +19,6 @@ export class TableTwoComponent {
   tableDataDetails: any;
   tableSubscription: any = Subscription;
 
-
   constructor(
     private modalService: NzModalService,
     private tableService: TableDataService
@@ -47,7 +46,7 @@ export class TableTwoComponent {
     instance.itemDetails = data;
   }
 
-  deleteModal(): void {
+  deleteModal(data: any): void {
     const modal = this.modalService.create({
       nzContent: DeleteModalComponent,
       nzFooter: null,
@@ -55,6 +54,8 @@ export class TableTwoComponent {
       nzAutofocus: null,
       nzMaskClosable: false,
     });
+    const instance = modal.getContentComponent();
+    instance.itemDetails = data;
   }
 
   ngOnDestroy() {
