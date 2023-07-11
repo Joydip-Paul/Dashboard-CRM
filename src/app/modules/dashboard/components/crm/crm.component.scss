@@ -1,0 +1,17 @@
+.card{
+    &_header {
+
+    }
+    &_body{
+        &__content {
+            &--desc {
+                p {
+                    font-size: 2em;
+                }
+            }
+        }
+    }
+    &_footer {
+
+    }
+}

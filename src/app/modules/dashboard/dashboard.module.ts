@@ -20,6 +20,16 @@ import { ChartCollectionOneComponent } from './components/chart-collection-one/c
 import { ChartCollectionTwoComponent } from './components/chart-collection-two/chart-collection-two.component';
 import { LineChartComponent } from '../charts/line-chart/line-chart.component';
 import { PieChartComponent } from '../charts/pie-chart/pie-chart.component';
+import { TableTwoComponent } from './components/table-two/table-two.component';
+import { DataViewComponent } from './components/table-two/modals/data-view/data-view.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
+import { DeleteModalComponent } from './components/table-one/modals/delete-modal/delete-modal.component';
+import { EditModalComponent } from './components/table-one/modals/edit-modal/edit-modal.component';
+import { AreaChartTwoComponent } from '../charts/area-chart-two/area-chart-two.component';
+import { ColumnChartComponent } from '../charts/column-chart/column-chart.component';
+import { AreaChartComponent } from '../charts/area-chart/area-chart.component';
+import { BarChartTwoComponent } from '../charts/bar-chart-two/bar-chart-two.component';
+import { GaugeChartComponent } from '../charts/gauge-chart/gauge-chart.component';
 
 @NgModule({
   declarations: [
@@ -33,18 +43,28 @@ import { PieChartComponent } from '../charts/pie-chart/pie-chart.component';
     SidebarComponent,
     HomeComponent,
     TableOneComponent,
+    TableTwoComponent,
     DataViewModalComponent,
     BarChartComponent,
     LineChartComponent,
+    AreaChartComponent,
+    AreaChartTwoComponent,
+    BarChartTwoComponent,
+    ColumnChartComponent,
     PieChartComponent,
+    GaugeChartComponent,
     ChartCollectionOneComponent,
     ChartCollectionTwoComponent,
+    DataViewComponent,
+    DeleteModalComponent,
+    EditModalComponent,
   ],
   imports: [
     CommonModule,
     DashboardRoutingModule,
     SharedModule,
     NgxChartsModule,
+    NgApexchartsModule
   ],
 })
 export class DashboardModule {}

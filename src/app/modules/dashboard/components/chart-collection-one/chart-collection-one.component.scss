@@ -1,0 +1,11 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.chart-two {
+    &__each {
+        background: #f1f3f4;
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+}

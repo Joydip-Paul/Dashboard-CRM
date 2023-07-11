@@ -6,6 +6,8 @@ import { AnalyticsComponent } from './components/analytics/analytics.component';
 import { HomeComponent } from './components/home/home.component';
 import { TableOneComponent } from './components/table-one/table-one.component';
 import { ChartCollectionOneComponent } from './components/chart-collection-one/chart-collection-one.component';
+import { TableTwoComponent } from './components/table-two/table-two.component';
+import { ChartCollectionTwoComponent } from './components/chart-collection-two/chart-collection-two.component';
 
 const routes: Routes = [
   {
@@ -30,9 +32,17 @@ const routes: Routes = [
         component: TableOneComponent,
       },
       {
+        path: 'table-two',
+        component: TableTwoComponent
+      },
+      {
         path: 'chart-collection-one',
         component: ChartCollectionOneComponent,
       },
+      {
+        path: 'chart-collection-two',
+        component: ChartCollectionTwoComponent,
+      }
     ],
   },
 ];

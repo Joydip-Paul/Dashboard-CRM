@@ -11,10 +11,10 @@
     </thead>
     <tbody>
       <tr *ngFor="let data of tableList">
-        <td>{{ data.id }}</td>
-        <td>{{ data.firstname }}</td>
-        <td>{{ data.lastname }}</td>
-        <td>{{ data.email }}</td>
+        <td><span class="res-head">Id:</span>{{ data.id }}</td>
+        <td><span class="res-head">Firstname:</span>{{ data.firstname }}</td>
+        <td><span class="res-head">Lastname:</span>{{ data.lastname }}</td>
+        <td><span class="res-head">Email:</span>{{ data.email }}</td>
         <td class="action">
           <span (click)="dataShowModal(data)"><i class="fa fa-eye"></i></span>
           <span><i class="fa fa-edit"></i></span>

@@ -1,0 +1,33 @@
+<div class="component-modal">
+    <div class="component-modal__header">
+        <div class="modal-title" *ngIf="itemDetails">Details of {{itemDetails.firstname + " " + itemDetails.lastname}}</div>
+        <div class="modal-close">
+            <button class="close-btn" (click)="closeTaskModal()"><i class="fa fa-close"></i></button>
+        </div>
+    </div>
+    <div class="component-modal__body">
+        <div class="table-data">
+            <ul *ngIf="itemDetails">
+                <li>
+                    <h3>Id</h3>
+                    <p>{{itemDetails.id}}</p>
+                </li>
+                <li>
+                    <h3>Firstname</h3>
+                    <p>{{itemDetails.firstname}}</p>
+                </li>
+                <li>
+                    <h3>Lastname</h3>
+                    <p>{{itemDetails.lastname}}</p>
+                </li>
+                <li>
+                    <h3>Email</h3>
+                    <p>{{itemDetails.email}}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="component-modal__footer">
+        <button class="cencel-btn" (click)="closeTaskModal()">Cancel</button>
+    </div>
+</div>

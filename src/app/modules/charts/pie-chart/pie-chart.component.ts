@@ -1,4 +1,31 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import {
+  ApexNonAxisChartSeries,
+  ApexResponsive,
+  ApexChart,
+  ApexTheme,
+  ApexTitleSubtitle,
+  ApexFill,
+  ApexStroke,
+  ApexYAxis,
+  ApexLegend,
+  ApexPlotOptions,
+  ChartComponent
+} from "ng-apexcharts";
+
+export type ChartOptions = {
+  series: ApexNonAxisChartSeries;
+  chart: ApexChart;
+  responsive: ApexResponsive[];
+  labels: any;
+  theme: ApexTheme;
+  title: ApexTitleSubtitle;
+  fill: ApexFill,
+  yaxis: ApexYAxis,
+  stroke: ApexStroke,
+  legend: ApexLegend,
+  plotOptions: ApexPlotOptions
+};
 
 @Component({
   selector: 'app-pie-chart',
@@ -6,131 +33,44 @@ import { Component } from '@angular/core';
   styleUrls: ['./pie-chart.component.scss'],
 })
 export class PieChartComponent {
-  polarChart: any = [
-    {
-      name: 'American Samoa',
-      series: [
-        {
-          value: 4109,
-          name: '2016-09-23T18:02:39.947Z',
+  @ViewChild("chart") chart:any = ChartComponent;
+  public chartOptions!: Partial<ChartOptions> | any;
+
+  constructor() {
+    this.chartOptions = {
+      series: [42, 39, 35, 29, 26],
+        chart: {
+          width: 380,
+          type: 'polarArea'
         },
-        {
-          value: 4255,
-          name: '2016-09-16T13:19:20.855Z',
+        labels: ['Rose A', 'Rose B', 'Rose C', 'Rose D', 'Rose E'],
+        fill: {
+          opacity: 1
         },
-        {
-          value: 3857,
-          name: '2016-09-15T07:06:59.085Z',
+        stroke: {
+          width: 1,
+          colors: undefined
         },
-        {
-          value: 3860,
-          name: '2016-09-14T09:43:36.340Z',
+        yaxis: {
+          show: false
         },
-        {
-          value: 2686,
-          name: '2016-09-17T15:08:04.476Z',
+        legend: {
+          position: 'bottom'
         },
-      ],
-    },
-    {
-      name: 'Panama',
-      series: [
-        {
-          value: 3066,
-          name: '2016-09-23T18:02:39.947Z',
+        plotOptions: {
+          polarArea: {
+            rings: {
+              strokeWidth: 0
+            }
+          }
         },
-        {
-          value: 5182,
-          name: '2016-09-16T13:19:20.855Z',
-        },
-        {
-          value: 3254,
-          name: '2016-09-15T07:06:59.085Z',
-        },
-        {
-          value: 6451,
-          name: '2016-09-14T09:43:36.340Z',
-        },
-        {
-          value: 3668,
-          name: '2016-09-17T15:08:04.476Z',
-        },
-      ],
-    },
-    {
-      name: 'Georgia',
-      series: [
-        {
-          value: 5975,
-          name: '2016-09-23T18:02:39.947Z',
-        },
-        {
-          value: 2111,
-          name: '2016-09-16T13:19:20.855Z',
-        },
-        {
-          value: 3302,
-          name: '2016-09-15T07:06:59.085Z',
-        },
-        {
-          value: 3829,
-          name: '2016-09-14T09:43:36.340Z',
-        },
-        {
-          value: 2084,
-          name: '2016-09-17T15:08:04.476Z',
-        },
-      ],
-    },
-    {
-      name: 'Tuvalu',
-      series: [
-        {
-          value: 4818,
-          name: '2016-09-23T18:02:39.947Z',
-        },
-        {
-          value: 4398,
-          name: '2016-09-16T13:19:20.855Z',
-        },
-        {
-          value: 2216,
-          name: '2016-09-15T07:06:59.085Z',
-        },
-        {
-          value: 6271,
-          name: '2016-09-14T09:43:36.340Z',
-        },
-        {
-          value: 5812,
-          name: '2016-09-17T15:08:04.476Z',
-        },
-      ],
-    },
-    {
-      name: 'Vanuatu',
-      series: [
-        {
-          value: 6200,
-          name: '2016-09-23T18:02:39.947Z',
-        },
-        {
-          value: 6926,
-          name: '2016-09-16T13:19:20.855Z',
-        },
-        {
-          value: 2928,
-          name: '2016-09-15T07:06:59.085Z',
-        },
-        {
-          value: 5650,
-          name: '2016-09-14T09:43:36.340Z',
-        },
-        {
-          value: 5818,
-          name: '2016-09-17T15:08:04.476Z',
-        },
-      ],
-    },
-  ];
+        theme: {
+          monochrome: {
+            //    enabled: true,
+            shadeTo: 'light',
+            shadeIntensity: 0.6
+          }
+        }
+    };
+  }
 }

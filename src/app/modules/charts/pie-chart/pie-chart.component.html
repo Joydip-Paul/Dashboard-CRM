@@ -1,2 +1,14 @@
-<ngx-charts-polar-chart [results]="polarChart" [legend]="false">
-</ngx-charts-polar-chart>
+<div class="pie-chart">
+    <apx-chart
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [labels]="chartOptions.labels"
+    [title]="chartOptions.title"
+    [theme]="chartOptions.theme"
+    [fill]="chartOptions.fill"
+    [yaxis]="chartOptions.yaxis"
+    [stroke]="chartOptions.stroke"
+    [legend]="chartOptions.legend"
+    [plotOptions]="chartOptions.plotOptions"
+  ></apx-chart>
+</div>
