@@ -8,6 +8,7 @@ import { TableOneComponent } from './components/table-one/table-one.component';
 import { ChartCollectionOneComponent } from './components/chart-collection-one/chart-collection-one.component';
 import { TableTwoComponent } from './components/table-two/table-two.component';
 import { ChartCollectionTwoComponent } from './components/chart-collection-two/chart-collection-two.component';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
 
 const routes: Routes = [
   {
@@ -33,7 +34,7 @@ const routes: Routes = [
       },
       {
         path: 'table-two',
-        component: TableTwoComponent
+        component: TableTwoComponent,
       },
       {
         path: 'chart-collection-one',
@@ -42,7 +43,11 @@ const routes: Routes = [
       {
         path: 'chart-collection-two',
         component: ChartCollectionTwoComponent,
-      }
+      },
+      {
+        path: 'profile',
+        component: UserProfileComponent,
+      },
     ],
   },
 ];

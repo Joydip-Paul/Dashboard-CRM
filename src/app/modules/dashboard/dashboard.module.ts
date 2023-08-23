@@ -30,6 +30,7 @@ import { ColumnChartComponent } from '../charts/column-chart/column-chart.compon
 import { AreaChartComponent } from '../charts/area-chart/area-chart.component';
 import { BarChartTwoComponent } from '../charts/bar-chart-two/bar-chart-two.component';
 import { GaugeChartComponent } from '../charts/gauge-chart/gauge-chart.component';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { GaugeChartComponent } from '../charts/gauge-chart/gauge-chart.component
     DataViewComponent,
     DeleteModalComponent,
     EditModalComponent,
+    UserProfileComponent,
   ],
   imports: [
     CommonModule,
