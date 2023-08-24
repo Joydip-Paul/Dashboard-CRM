@@ -8,29 +8,28 @@ import { Component } from '@angular/core';
 })
 export class UserProfileComponent {
   uploadFileName: string[] = [];
-  fileUrl: string = 'https://www.filestackapi.com/api/';
+  fileUrl: string = 'http://storeapi.gerasim.in/customer/';
   constructor(private http: HttpClient) {}
 
   ngOnInit() {}
   uploadImage(event: any) {
     // debugger;
     const file = event.currentTarget.files[0];
-    if ((file.type = 'image/png' && file.size < 6000000)) {
+    if ((file.type == 'image/png' || file.type == 'image/jpeg') && file.size < 6000000) {
       const formObj = new FormData();
       formObj.append('file', file);
       this.http
-        .post('https://www.filestackapi.com/api/file', formObj)
+        .post('https://storeapi.gerasim.in/api/Customer/Upload', formObj)
         .subscribe((res: any) => {
           this.uploadFileName.push(res);
         });
-    } else {
+    } 
+    else {
       if (file.size > 600000) {
         alert('Boro');
       } else {
         alert('Error');
       }
-      console.log('error');
-      alert('Only png is alowed');
     }
   }
 }

@@ -5,8 +5,12 @@
       <label>Upload Image</label>
       <input type="file" (change)="uploadImage($event)" />
     </div>
-    <div *ngFor="let file of uploadFileName">
-      <img [src]="fileUrl + file" alt="" />
+   <div class="row">
+    <div class="col-lg-4 col-md-3 pb-3" *ngFor="let file of uploadFileName">
+      <div class="uploaded-file">
+        <img [src]="fileUrl + file" alt="" />
+      </div>
     </div>
+   </div>
   </div>
 </div>
